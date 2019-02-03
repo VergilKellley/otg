@@ -11,7 +11,7 @@ body {
 
 header {
 	position: fixed;
-	height: 8rem;
+	height:20vh; /*8rem;*/
 	background: rgba(255, 255, 255, .8);
 	border-bottom: 4px green solid;
 	z-index: 2;
@@ -80,7 +80,7 @@ header {
 
 .count-down-container{
 	position: absolute;
-	margin-top: 8rem;
+	margin-top: 20vh; /*8rem;*/
 	text-align: center;
 	background: green;
 	height: 4rem;
@@ -95,7 +95,7 @@ header {
 
 #header-img {
 	position: absolute;
-	top: 190px;
+	top: 30vh;/*190px;*/
 	height: 150px;
 	min-width: 100vw;
 }
@@ -165,11 +165,15 @@ header {
 }
 
 .nfl-facts-container h5 {
-	padding-top: 1rem;
-	left: 1rem;
+	position: absolute;
+	padding-top: 2rem;
+	margin-bottom: 2.5rem;
+	left: 3rem;
 }
 
 .nfl-facts-container p {
+	position: relative;
+	margin-top: 4rem;
 	left: 1rem;
 	width: 10rem;
 	padding-left:  1rem;
@@ -204,14 +208,20 @@ header {
 
 .links-container h5 {
 	position: absolute;
-	right: 4rem;
-	top: 1rem;
+	right: 8.5rem;
+	top: 2rem;
+}
+
+.links-container h6 {
+	position: absolute;
+	top: 9rem;
+	margin-top: 2rem;
 }
 
 .links-container ul {
 	position: absolute;
 	z-index: 3;
-	right: .5rem;
+	right: 2.5rem;
 	top: 4rem;
 }
 
@@ -456,49 +466,67 @@ header {
 }
 
 /***************footer*****************/
-#footer{
+footer{
 	position: absolute;
 	top: 3026px;
 	bottom: 0;
-	height: 498px;
+	/*left: 0;*/
+	height: 80vh;
 	width: 100%;
 	background: #000;
-
 }
 
-#links-text {
+#links-text-otg {
 	position: relative;
-	padding-top: 100px;
+	padding-top: 50px;
+	color: #fff;
+	text-align: center;
 }
 
 .links {
 	padding-bottom: 2%;
-	left: 4rem;
+	/*left: 6rem;*/
+}
+
+.links ul {
+	position: absolute;
+	left: 3rem;
 }
 
 .links-border {
+	position: absolute;
+	/*right: 4rem;*/
 	border-right: 3px green solid;
+
 }
 
-#footer ul li{
+.links ul li{
 	list-style: none;
 }
 
-#footer ul li a{
+.links ul li a{
 	color: green;
 }
 
-#footer ul li a:hover{
+.links ul li a:hover{
 	color: lightgreen;
 }
 
-#footer p{
-	padding-top:3%;
-	padding-bottom: 3%;
-	/*margin: 0 auto;*/
-	margin-top: 0;
+.links p{
+
 	color: #fff;
-	text-align: center;
+}
+
+.contact h6 {
+	position:absolute;
+	right: 3rem;
+	color: #fff;
+}
+
+.copyright {
+	position: absolute;
+	top: 3340px;
+	color: green;
 }
 
 #prpa-vkweb {
@@ -506,9 +534,12 @@ header {
 }
 
 #prpa-vkweb i {
+	position: relative;
+	top: -30px;
 	font-size: 28px;
 	color: green;
 	padding-right: 45px;
+
 }
 
 #prpa-vkweb i:hover {
@@ -519,7 +550,13 @@ header {
 	text-align: center;
 }
 
+#prpa-vkweb a i{
+	margin-top: 5px;
+}
+
 #prpa-copy-right {
+	position: relative;
+	color: #fff;
 
 	padding-bottom: 0 !important;
 }
