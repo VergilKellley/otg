@@ -41,7 +41,12 @@ header {
 
 #top-nav ul li a{
 	color: green;
+}
 
+#top-nav ul li a:hover{
+	padding-bottom: 1rem;
+	border-bottom: 4px green solid;
+	text-decoration: none;
 }
 
 #logo img{
@@ -95,9 +100,44 @@ header {
 	min-width: 100vw;
 }
 
+.nfl-sports-mngt-container {
+	position: absolute;
+	top: 27rem;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+.nfl-sports-mngt-container h1 {
+	color: green;
+	display: inline;
+	font-family: arial, serif;
+	font-size: 4rem;
+	font-style: italic;
+}
+
+#sports-mngt {
+	color: #000;
+	display: inline;
+	font-family: arial, serif;
+	font-size: 2rem;
+	background: lightgreen;
+	padding: .7rem;
+	
+	border-radius: 10px;
+}
+
+.nfl-sports-mngt-container h3 {
+	color: green;
+	padding-top: 1.5rem;
+	text-transform: uppercase;
+	font-style: italic;
+	text-decoration: underline;
+}
+
 .nfl-otg-links-container {
 	position: absolute;
-	margin-top: 23rem;
+	margin-top: 40rem;
 }
 .nfl-facts-container {
 	position: absolute;
@@ -179,7 +219,6 @@ header {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 400;
-	text-decoration: underline;
 	color: green;
 	font-family: arial, sans-serif;
 }
@@ -236,52 +275,42 @@ header {
     transform: skew(5deg, 0deg);
 }
 
-.mantra-text {
-	position: absolute;
-	margin-top: 1200px;
-	right: 0;
-	margin-left: 200px;
-	text-align: center;
-}
-
-.mantra-text h1 {
-	font-family: arial, sans-serif;
-	font-weight: 400;
-	font-size: 5rem;
-	color: #000;
-	text-transform: uppercase;
-	font-style: italic;
-	background: lightgreen;
-	padding: 2rem;
-	border-radius: 10px;
-}
-
-.mantra-text p {
-	font-family: arial, sans-serif;
-	color: #fff;
-	font-size: 2.5rem;
-	text-transform: uppercase;
-	font-style: italic;
-	background: green;
-	padding: 2rem;
-	border-radius: 10px;
-	margin-top: 3rem;
-}
 .trust-process-container {
-	position: relative;
-	margin-top: 100px;
-	
+	position:absolute;
+	margin-top: 1200px;
+	left: 20%;
+}
+
+.trust-process-container {
+	content: " ";
+   /* position: absolute;*/
+    display: block;
+   /* border:1px green solid;*/
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    /*left: 0px;*/
+    z-index: -1;
+    background: #fff;
+    transform-origin: bottom left;
+    -ms-transform: skew(-5deg, 0deg);
+    -webkit-transform: skew(-5deg, 0deg);
+    transform: skew(-5deg, 0deg);
+
 }
 
 .trust-process-container p {
-	position: relative;
-	margin-top: 250px;
+	position:relative;
+	/*margin-top: 220px;*/
 	font-family: arial, sans-serif;
 	font-weight: 400;
 	font-size: 3rem;
-	color: green;
+	color: #fff;
+	padding: 3rem;
+	border-radius: 10px;
+	background: green;
 	text-align: center;
-	margin-left: 250px;
+	/*margin-left: 250px;*/
 	text-transform: uppercase;
 }
 
@@ -292,17 +321,60 @@ header {
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
-	top: 100px;
-	left: -20px;
+	top: 1800px;
+	left: 0;
 	min-width: 100vw;
 	height: 300px;
 	z-index: 2;
 }
 
+.testimonials-container {
+	position: absolute;
+	top: 141rem;
+	text-align: center;
+	content: " ";
+	left: -30px;
+   /* position: absolute;*/
+    display: block;
+   /* border:1px green solid;*/
+    width: 100%;
+    height: 100%;
+    /*top: 0px;*/
+    /*left: 0px;*/
+    z-index: -1;
+    background: #fff;
+    transform-origin: bottom left;
+    -ms-transform: skew(-5deg, 0deg);
+    -webkit-transform: skew(-5deg, 0deg);
+    transform: skew(-5deg, 0deg);
+
+}
+
+.testimonials h3 {
+	font-family: serif;
+	font-size: 3rem;
+	font-style: italic;
+	font-weight: 400;
+	color: #000;
+}
+
+.testimonials p {
+	font-family: serif;
+	font-size: 1.5rem;
+	font-style: italic;
+	font-weight: 400;
+	color: #fff;
+	padding: 1rem;
+	border-radius: 10px;
+	margin-top: 2rem;
+	background: green;
+
+}
+
 
 .images{
 	position: absolute;
-	top: 2500px;
+	top: 2590px;
 	margin-bottom: 200px;
 }
 
@@ -329,3 +401,135 @@ header {
 	border-radius: 50%;
 	cursor: pointer;
 }
+
+.mantra-text {
+	position: absolute;
+	margin-top: 1700px;
+	right: 0;
+	margin-left: 200px;
+	text-align: center;
+
+}
+
+.mantra-text{
+	content: " ";
+   /* position: absolute;*/
+    display: block;
+   /* border:1px green solid;*/
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    /*left: 0px;*/
+    z-index: -1;
+    background: #fff;
+    transform-origin: bottom left;
+    -ms-transform: skew(-5deg, 0deg);
+    -webkit-transform: skew(-5deg, 0deg);
+    transform: skew(-5deg, 0deg);
+
+}
+
+.mantra-text h1 {
+	font-family: arial, sans-serif;
+	font-weight: 400;
+	font-size: 2rem;
+	color: #000;
+	text-transform: uppercase;
+	font-style: italic;
+	background: lightgreen;
+	padding: 1rem;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.mantra-text p {
+	font-family: arial, sans-serif;
+	color: #fff;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	font-style: italic;
+	background: green;
+	padding: 2rem;
+	border-radius: 10px;
+	margin-top: 3rem;
+	text-align: center;
+}
+
+/***************footer*****************/
+#footer{
+	position: absolute;
+	top: 3026px;
+	bottom: 0;
+	height: 498px;
+	width: 100%;
+	background: #000;
+
+}
+
+#links-text {
+	position: relative;
+	padding-top: 100px;
+}
+
+.links {
+	padding-bottom: 2%;
+	left: 4rem;
+}
+
+.links-border {
+	border-right: 3px green solid;
+}
+
+#footer ul li{
+	list-style: none;
+}
+
+#footer ul li a{
+	color: green;
+}
+
+#footer ul li a:hover{
+	color: lightgreen;
+}
+
+#footer p{
+	padding-top:3%;
+	padding-bottom: 3%;
+	/*margin: 0 auto;*/
+	margin-top: 0;
+	color: #fff;
+	text-align: center;
+}
+
+#prpa-vkweb {
+	padding-top:3%;
+}
+
+#prpa-vkweb i {
+	font-size: 28px;
+	color: green;
+	padding-right: 45px;
+}
+
+#prpa-vkweb i:hover {
+	color: lightgreen;
+}
+
+#prpa-vkweb {
+	text-align: center;
+}
+
+#prpa-copy-right {
+
+	padding-bottom: 0 !important;
+}
+
+#vk-link {
+	padding-top: 0px;
+	color: green;
+}
+
+#vk-link:hover {
+	color: lightgreen;
+}
+
