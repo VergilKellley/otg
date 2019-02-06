@@ -1,0 +1,421 @@
+/**{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}*/
+
+body {
+	overflow-x: hidden;
+
+}
+
+.container-fluid{
+	background: #000;
+}
+
+/*header {
+	position: fixed;
+	height:20vh; /*8rem;*/
+	/*background: rgba(255, 255, 255, .8);
+	border-bottom: 4px green solid;
+	z-index: 2;
+}*/
+
+#top-nav {
+	margin-top: 3rem;
+	position: absolute;
+	z-index: 3;
+}
+
+#top-nav ul {
+	text-align: center;
+}
+
+#top-nav ul li {
+
+	display: inline;
+	padding-right: 1rem;
+	font-size: 1.2rem;
+	font-weight: 400;
+	font-family: arial, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#top-nav ul li a{
+	color: green;
+}
+
+#top-nav ul li a:hover{
+	padding-bottom: 1rem;
+	border-bottom: 4px green solid;
+	text-decoration: none;
+}
+
+#logo img{
+	margin-top: 1rem;
+	margin-left: 10rem;
+}
+
+.phone p {
+	margin-top: 3rem;
+	text-align: center;
+	color: green;
+	font-family: arial, sans-serif;
+}
+
+
+#header-img {
+	position: absolute;
+	top: 0;/*190px;*/
+	height: 150px;
+	min-width: 100vw;
+	border-bottom: 4px green solid;
+}
+
+#nfl-agents{
+	position: relative;
+	text-align: center;
+	color: #fff;
+	margin-top: 10rem;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+#nfl-agents p {
+	font-size: 1.5rem;
+	color: #fff;
+	font-style: italic;
+}
+
+.count-down-container{
+	position: relative;
+	text-align: center;
+	/*left: 10rem;*/
+}
+
+.clock-container{
+	/*position: absolute;*/
+	display: inline-block;
+	border: #fff;
+	color: green;
+	box-shadow: 0 0 5px 3px #20c107;/*neon green*/
+}
+
+.clock-container .info, p{
+	text-align: center;
+	
+}
+
+.combine-draft-day {
+	color: #fff;
+	font-size: 1.5rem;
+	font-style: arial, sans-serif;
+	text-transform: uppercase;
+}
+
+#dhms {
+	font-size: 1rem;
+	color: #fff;
+}
+
+#dddhms {
+	font-size: 1rem;
+	color: #fff;
+}
+
+.info td {
+	font-size: 1.5rem;
+	box-shadow: 0 0 7px 3px #20c107;/*neon green*/
+	background: #232426;/* charcoal */
+	padding: 5px;
+	border:none;
+}
+
+.what-we-do {
+	position: relative;
+	margin-top: 7rem;
+	color: #fff;	
+}
+
+.what-we-do p{
+	text-align: left;
+}
+
+.what-we-do p span a {
+	color: green;
+}
+
+.what-we-do p span a:hover {
+	color: lightgreen;
+	text-decoration: none;
+}
+
+#chris {
+	position: relative;
+	margin-top: 7rem;
+	background: #232426;/*charcoal*/
+	color: #fff;
+	padding: 10px;
+	border: 4px green solid;
+	border-radius: 10px;
+	
+}
+
+#chris p {
+	text-align: left;
+	padding-left: 5px;
+}
+
+#chris img {
+	position: relative;
+	float:left;
+	top: 5px;
+	margin-bottom: 0.5em;
+	margin-right: 1.5em;
+	shape-outside: border-box;
+	shape-margin: 75px;
+	border-radius: 10px;
+}
+
+#otg{
+	color: green;
+	font-style: italic;
+}
+
+
+.skew-container {
+	height: 950px;
+	background: #000;
+}
+
+.skew-container p {
+	position: absolute;
+	margin-top: 10rem;
+	color: #fff;
+	font-size: 2.5rem;
+	left: 8rem;
+}
+
+#skew-container-1{
+	position: relative;
+	margin-top: 31rem;
+	text-transform: uppercase;
+	background: green;
+	/*transform: skewY(6deg);*/
+	height: .5rem;
+	width: 100%;
+	padding:0;
+}
+
+#img-border{
+	position: relative;
+	border: .5rem green solid;
+	margin-top: 17rem;
+	border-radius: 50%;
+	max-height: 440px;/*28rem;*/
+	max-width:460px;
+}
+
+#img-border img {
+	border-radius: 50%;
+	/*margin-top: 10rem;*/
+	width: 445px;
+	height: 425px;
+}
+
+#skew-container-2{
+	position: relative;
+	text-transform: uppercase;
+	margin-top: 31rem;
+	background: green;
+	/*transform: skewY(-6deg);*/
+	height: .5rem;
+	width: 100%;
+	padding: 0;
+}
+
+.images{
+	position: absolute;
+	top: 130rem;
+	padding-top: 10rem;
+	height: 420px;
+	margin-bottom: 200px;
+}
+
+.images img {
+	position: relative;
+	max-width: 10rem;
+	max-height: 10rem;
+	border-radius: 50%;
+	border:2px green solid;
+	float:left;
+	margin-right: 2em;
+	margin-bottom: 0.5em;
+
+	shape-outside: circle();
+	background: lightgreen;
+}
+
+.images img:hover {
+
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.images h5 {
+	color: #fff;
+	text-decoration: underline green;
+}
+
+.images p {
+	color: #fff;
+	text-align: left;
+}
+
+.combine-container {
+	position: relative;
+	top: 26rem;
+	height: 820px;
+}
+
+.draft-day-container {
+	position: absolute;
+	margin-top: 16rem;
+}
+
+.football-101-container {
+	position: relative;
+	top: 16rem;
+}
+
+.services {
+	position: relative;
+}
+
+.services-containers {
+	position: relative;
+	margin-top: 5rem;
+	background: #232426;/* charcoal */
+}
+
+.services-containers h5 {
+	color: #fff;
+	text-decoration: underline green;
+}
+
+.services-containers p{
+	text-align: left;
+	color: #fff;
+	
+	padding: 10px;
+	border-radius: 10px;
+}
+
+
+
+/***************footer*****************/
+footer{
+	position: absolute;
+	top: 3426px;
+	bottom: 0;
+	/*left: 0;*/
+	height: 80vh;
+	width: 100%;
+	background: #000;
+}
+
+#links-text-otg {
+	position: relative;
+	padding-top: 50px;
+	color: #fff;
+	text-align: center;
+}
+
+.links {
+	padding-bottom: 2%;
+	/*left: 6rem;*/
+}
+
+.links ul {
+	position: absolute;
+	left: 3rem;
+}
+
+.links-border {
+	position: absolute;
+	/*right: 4rem;*/
+	border-right: 3px green solid;
+
+}
+
+.links ul li{
+	list-style: none;
+}
+
+.links ul li a{
+	color: green;
+}
+
+.links ul li a:hover{
+	color: lightgreen;
+}
+
+.links p{
+
+	color: #fff;
+}
+
+.contact h6 {
+	position:absolute;
+	right: 3rem;
+	color: #fff;
+}
+
+.copyright {
+	position: absolute;
+	top: 3760px;
+	color: green;
+}
+
+#prpa-vkweb {
+	padding-top:3%;
+}
+
+#prpa-vkweb i {
+	position: relative;
+	top: -30px;
+	font-size: 28px;
+	color: green;
+	padding-right: 45px;
+
+}
+
+#prpa-vkweb i:hover {
+	color: lightgreen;
+}
+
+#prpa-vkweb {
+	text-align: center;
+}
+
+#prpa-vkweb a i{
+	margin-top: 5px;
+}
+
+#prpa-copy-right {
+	position: relative;
+	color: #fff;
+
+	padding-bottom: 0 !important;
+}
+
+#vk-link {
+	padding-top: 0px;
+	color: green;
+}
+
+#vk-link:hover {
+	color: lightgreen;
+}
+
