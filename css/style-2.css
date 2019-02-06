@@ -240,7 +240,6 @@ body {
 	top: 130rem;
 	padding-top: 10rem;
 	height: 420px;
-	margin-bottom: 200px;
 }
 
 .images img {
@@ -251,7 +250,7 @@ body {
 	border:2px green solid;
 	float:left;
 	margin-right: 2em;
-	margin-bottom: 0.5em;
+	/*margin-bottom: 0.5em;*/
 
 	shape-outside: circle();
 	background: lightgreen;
@@ -276,38 +275,37 @@ body {
 .combine-container {
 	position: relative;
 	top: 26rem;
-	height: 820px;
+	height: 830px;
+	border-bottom: 4px green solid;
 }
 
-.draft-day-container {
-	position: absolute;
-	margin-top: 16rem;
-}
-
-.football-101-container {
+#combine {
 	position: relative;
-	top: 16rem;
+	margin-top: 7rem;
 }
 
-.services {
+#draft-day-container {
 	position: relative;
+	margin-top: 7rem;
+}
+
+#football-101-container {
+	position: relative;
+	margin-top: 7rem;
 }
 
 .services-containers {
 	position: relative;
-	margin-top: 5rem;
 	background: #232426;/* charcoal */
 }
 
 .services-containers h5 {
 	color: #fff;
-	text-decoration: underline green;
 }
 
 .services-containers p{
 	text-align: left;
 	color: #fff;
-	
 	padding: 10px;
 	border-radius: 10px;
 }
@@ -317,7 +315,7 @@ body {
 /***************footer*****************/
 footer{
 	position: absolute;
-	top: 3426px;
+	top: 3326px;
 	bottom: 0;
 	/*left: 0;*/
 	height: 80vh;
@@ -374,7 +372,7 @@ footer{
 
 .copyright {
 	position: absolute;
-	top: 3760px;
+	top: 3660px;
 	color: green;
 }
 
