@@ -395,21 +395,8 @@ header {
 	float:left;
 	margin-right: 2em;
 	margin-bottom: 0.5em;
-
+	border:3px green solid;
 	shape-outside: circle();
-	background: lightgreen;
-}
-
-.img-text-div {
-
-}
-
-.images img:hover {
-
-	width: 13.9rem;
-	height: 11.9rem;
-	border-radius: 50%;
-	cursor: pointer;
 }
 
 .mantra-text {
