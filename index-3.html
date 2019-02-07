@@ -67,6 +67,45 @@
 				</div>
 			</section>
 
+	<section class="container-fluid p-0 count-down-container">
+		<div class="row">
+			<div class="col-sm-6">
+				<table class="clock-container" cellpadding="10px">
+					<tr class="info">
+						<span class="combine-draft-day"><p>Combine</p></span>
+						<td id="days"></td>
+						<td id="hrs"></td>
+						<td id="min"></td>
+						<td id="sec"></td>
+					</tr>
+					<tr id="dhms">
+						<td>Days</td>
+						<td>Hours</td>
+						<td>Minutes</td>
+						<td>Seconds</td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-sm-6">
+				<table class="clock-container mr-auto" cellpadding="10px">
+					<tr class="info">
+						<p class="combine-draft-day">Draft Day</p>
+						<td id="dddays"></td>
+						<td id="ddhrs"></td>
+						<td id="ddmin"></td>
+						<td id="ddsec"></td>
+					</tr>
+					<tr id="dddhms">
+						<td>Days</td>
+						<td>Hours</td>
+						<td>Minutes</td>
+						<td>Seconds</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</section>
+
 			<section class="container-fluid p-0 mx-auto">
 				<div class="row">
 					<div class="col-md-8 mx-auto" id="big-otg">
@@ -91,6 +130,16 @@
 				</div>
 			</section>
 
+			<section class="container p-0 mantra">
+				<div class="row">
+					<div class="col-sm-8" id="mantra-text">
+						<h2>Our Mantra:</h2>
+						<p id="you-ball"><span>"</span>You ball on the field<span>...</span></p>
+						<p id="we-ball">We ball for you off the field<span>."</span></p>
+					</div>
+				</div>
+			</section>
+
 			<section class="container p-0 mx-auto" id="about-container">
 				<div class="row">
 					<div class="col-md-8" id="about-text">
@@ -105,17 +154,24 @@
 				</div>
 			</section>
 
-			<section class="container-fluid p-0 mx-auto">
+
+			<section class="container-fluid p-0 mx-auto buttons-container">
 				<div class="row">
 					<div class="col-md-8 mx-auto" id="big-services">
+						<button id="services-btn" id="contract-negotiation" type="button" name="contract">Contract Negotiation</button>
+						<button id="marketing-btn" type="button" name="contract">Marketing & Endorsements</button>
+						<button id="predraft-btn" type="button" name="contract">Pre-Draft Preporation</button>
+						<button id="support-btn" type="button" name="contract">Personal Support Services</button>
+						<button id="community-btn" type="button" name="contract">Community Relations</button>
 						<h1>Services</h1>
 					</div>
 				</div>
 			</section>
 
-			<section class="container p-0 mx-auto" id="services-container">
+
+			<section class="container p-0 mx-auto services-container">
 				<div class="row">
-					<div class="col-md-8 services-text">
+					<div class="col-md-8 services-text" id="services" id="contract-negotiation">
 						<h3>Contract Negotiation</h3>
 						<img src="img/contract.png">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -142,15 +198,62 @@
 					</div>
 				</div>
 			</section>
+			<script type="text/javascript">
+				$(document).ready(function(){
+				  $("#services-btn").click(function(){
+				  	$('.services-text').hide(500);
+				    $('#services').show(1000).end();
+				});
+			});
+
+				$(document).ready(function(){
+				  $("#marketing-btn").click(function(){
+				  	$('.services-text').hide(500);
+				    $('#marketing').show(1000).end();
+				});
+			});
+			
+			</script>
+			<script>
+				$(document).ready(function(){
+				  $("#predraft-btn").click(function(){
+				  	$('.services-text').hide(500);
+				    $('#predraft').show(1000).end();
+				});
+			});
+
+				$(document).ready(function(){
+				  $("#support-btn").click(function(){
+				  	$('.services-text').hide(500);
+				    $('#support').show(1000).end();
+				});
+			});
+
+				$(document).ready(function(){
+				  $("#community-btn").click(function(){
+				  	$('.services-text').hide(500);
+				    $('#community').show(1000).end();
+				});
+			});
+			</script>
+
+			
+			<script>
+				/*$(document).ready(function(){
+				  $("#marketing-btn").click(function(){
+				    $("#marketing").toggle();
+				  });
+				});*/
+			</script>
 
 			<section class="container">
 				<div class="row">
 					<div class="col-sm-6 mx-auto green-line"></div>
 				</div>
 			</section>
-			<section class="container p-0 mx-auto" id="marketing-container">
+			<section class="container p-0 mx-auto services-container">
 				<div class="row">
-					<div class="col-md-8 services-text" >
+					<div class="col-md-8 services-text" id="marketing" >
 						<h3>Marketing & Endorsements</h3>
 						<img src="img/marketing.png">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -176,7 +279,7 @@
 
 			<section class="container p-0 mx-auto" id="pre-draft-container">
 				<div class="row">
-					<div class="col-md-8 services-text">
+					<div class="col-md-8 services-text display-none" id="predraft">
 						<h3>Pre-Draft Preporation</h3>
 						<img src="img/pre-draft-prep.png">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -194,15 +297,15 @@
 				</div>
 			</section>
 
-			<section class="container">
+			<!--<section class="container">
 				<div class="row">
 					<div class="col-sm-6 mx-auto green-line"></div>
 				</div>
-			</section>
+			</section>-->
 
 			<section class="container p-0 mx-auto" id="community-container">
 				<div class="row">
-					<div class="col-md-8 services-text">
+					<div class="col-md-8 services-text display-none" id="community">
 						<h3>Community Relations</h3>
 						<img src="img/community.png">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -220,15 +323,9 @@
 				</div>
 			</section>
 
-			<section class="container">
-				<div class="row">
-					<div class="col-sm-6 mx-auto green-line"></div>
-				</div>
-			</section>
-
 			<section class="container p-0 mx-auto" id="support-container">
 				<div class="row">
-					<div class="col-md-8 services-text">
+					<div class="col-md-8 services-text display-none" id="support">
 						<h3>Personal Support Services (In-Season)</h3>
 						<img src="img/support.png">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -246,13 +343,7 @@
 				</div>
 			</section>
 
-			<section class="container">
-				<div class="row">
-					<div class="col-sm-6 mx-auto green-line"></div>
-				</div>
-			</section>
-
-			<section class="container p-0 mx-auto" id="off-season-assistance-container">
+			<!--<section class="container p-0 mx-auto" id="off-season-assistance-container">
 				<div class="row">
 					<div class="col-md-8 services-text">
 						<h3>Off-Season Client Assistance</h3>
@@ -296,48 +387,11 @@
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
 				</div>
-			</section>
+			</section>-->
 	
-	<!--<section class="container-fluid p-0 count-down-container">
-		<div class="row">
-			<div class="col-sm-6">
-				<table class="clock-container" cellpadding="10px">
-					<tr class="info">
-						<span class="combine-draft-day"><p>Combine</p></span>
-						<td id="days"></td>
-						<td id="hrs"></td>
-						<td id="min"></td>
-						<td id="sec"></td>
-					</tr>
-					<tr id="dhms">
-						<td>Days</td>
-						<td>Hours</td>
-						<td>Minutes</td>
-						<td>Seconds</td>
-					</tr>
-				</table>
-			</div>
-			<div class="col-sm-6">
-				<table class="clock-container mr-auto" cellpadding="10px">
-					<tr class="info">
-						<p class="combine-draft-day">Draft Day</p>
-						<td id="dddays"></td>
-						<td id="ddhrs"></td>
-						<td id="ddmin"></td>
-						<td id="ddsec"></td>
-					</tr>
-					<tr id="dddhms">
-						<td>Days</td>
-						<td>Hours</td>
-						<td>Minutes</td>
-						<td>Seconds</td>
-					</tr>
-				</table>
-			</div>
-		</div>
-	</section>
+	
 
-	<section class="container-fluid p-0 mission-container">
+	<!--<section class="container-fluid p-0 mission-container">
 		 <div class="row">
 		 	<div class="col-sm-8 what-we-do mx-auto">
 		 		<h4>Our Mission</h4>
@@ -505,6 +559,26 @@
 			</div>
 		</div>
 	</section>-->
+
+	<script type="">
+
+		function displayContractServices() {
+  			document.getElementById("services").style.display = "block";
+		}
+		
+		/*function displayService() {
+
+			var service = document.getElementById('services-container');
+			var marketing = document.getElementById('marketing-container');
+			var preDraft = document.getElementById('pre-draft-prep-container');
+			var community = document.getElementById('community-container');
+			var support = document.getElementById('support-container');
+			var assistance = document.getElementById('off-season-assistance-container');
+			var counseling = document.getElementById('counseling-container');*/
+
+				 
+		/*}*/
+	</script>
 	<script type="text/javascript">
 		
 		//header.php image slider
