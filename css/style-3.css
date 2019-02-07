@@ -96,7 +96,7 @@ header {
 
 #otg-welcome-container {
 	border-top: 8px #fff solid;
-	height: 80vh;
+	height: 70vh;
 }
 
 #otg-welcome-img {
@@ -127,17 +127,46 @@ header {
 	text-align: right;
 }
 
+/**************MANTRA TEXT*******************/
 
-.green-line {
-	margin-top: 7rem;
-	margin-bottom: 7rem;
-	border-bottom: 4px green solid;
+.mantra {
+	position: relative;
+	margin-bottom: 11rem;
+}
+
+#mantra-text h2 {
+	position: absolute;
+	font-size: 4.5rem;
+	left: 8rem;
+	color: green;
+
+}
+
+#mantra-text span{
+	color: green;
+}
+
+#you-ball {
+	position: absolute;
+	left: 16rem;
+	top: 6rem;
+	font-size: 2rem;
+	color: #fff;
+}
+
+#we-ball {
+	position: absolute;
+	left: 22rem;
+	top: 9rem;
+	font-size: 2rem;
+	color: #fff;
 }
 
 /***************ABOUT US************************/
 
 #about-container {
-	margin-top: 7rem;
+	position: relative;
+	top: 13rem;
 	background: #fff;
 	color: #000;
 }
@@ -151,6 +180,7 @@ header {
 	padding: 20px;
 	font-size: 3rem;
 	text-decoration: underline;
+	color: green;
 
 }
 
@@ -175,8 +205,67 @@ header {
 
 /*******************SERVICES******************/
 
-#big-services {
-	
+.buttons-container {
+	position: relative;
+	top: 13rem;
+}
+
+#big-services button {
+	padding: 3px;
+	font-size: 14px;
+	background: green;
+	color: #fff;
+	border:none;
+}
+
+#big-services button:hover {
+	background: lightgreen;
+	color: #000;
+	cursor: pointer;
+}
+#services-btn {
+	position: absolute;
+	color: #000;
+	background: #fff;
+	margin-top: 16rem;
+	left: -7.8rem;
+}
+
+#marketing-btn {
+	position: absolute;
+	color: #000;
+	background: #fff;
+	margin-top: 16rem;
+	margin-left: 1rem;
+}
+
+#predraft-btn {
+	position: absolute;
+	color: #000;
+	background: #fff;
+	margin-top: 16rem;
+	margin-left: 13rem;
+}
+
+#support-btn {
+	position: absolute;
+	color: #000;
+	background: #fff;
+	margin-top: 16rem;
+	margin-left: 22.7rem;
+}
+
+#community-btn {
+	position: absolute;
+	color: #000;
+	background: #fff;
+	margin-top: 16rem;
+	margin-left: 33.9rem;
+}
+
+.services-container{
+	position: relative;
+	top: 13rem;
 }
 #big-services h1 {
 	font-size: 3rem;
@@ -185,8 +274,10 @@ header {
 	text-align: right;
 }
 
-#services-container {
+#services-text {
+	position: relative;
 	border-top: 8px #fff solid;
+	/*top: 4rem;*/
 }
 
 #services-container h3 {
@@ -206,24 +297,53 @@ header {
 }
 
 .services-text {
+	position: relative;
 	padding: 10px;
 	color: #fff;
 	flex: none;
 	min-width: 100%;
-	
+	border-top: 8px #fff solid;
 }
 
 .services-text p {
 	text-align: left;
 }
 
-
-
-
-
-/*.count-down-container{
+.display-none {
+	display: none;
+}
+#marketing{
 	position: relative;
+	display: none;
+}
+
+#predraft {
+	position: relative;
+	display: none;
+	top: 13rem;
+}
+
+#support {
+	position: relative;
+	display: none;
+	top: 13rem;
+}
+
+#community {
+	position: relative;
+	display: none;
+	top: 13rem;
+}
+
+
+
+
+.count-down-container{
+	position: absolute;
 	text-align: center;
+	top: 27rem;
+	z-index: 2;
+
 	/*left: 10rem;*/
 }
 
@@ -233,6 +353,8 @@ header {
 	border: #fff;
 	color: green;
 	box-shadow: 0 0 5px 3px #20c107;/*neon green*/
+	background: rgba(4, 117, 15, 0.8);
+	padding: 50px 10px 10px 10px;
 }
 
 .clock-container .info, p{
@@ -242,6 +364,8 @@ header {
 }
 
 .combine-draft-day {
+	position: absolute;
+	left: 18.5rem;
 	color: #fff;
 	font-size: 1rem;
 	font-style: arial, sans-serif;
@@ -250,12 +374,12 @@ header {
 
 #dhms {
 	font-size: 1rem;
-	color: #000;
+	color: #fff;
 }
 
 #dddhms {
 	font-size: 1rem;
-	color: #000;
+	color: #fff;
 	padding: 10px;
 }
 
@@ -271,11 +395,11 @@ header {
 
 footer{
 	position: relative;
-	margin-top: 7rem;
+	margin-top: 46%; /*16rem;*/
 	border-top: 4px green solid;
 	bottom: 0;
 	/*left: 0;*/
-	height: 80vh;
+	height: 60vh;
 	width: 100%;
 	background: #000;
 }
@@ -289,6 +413,7 @@ footer{
 
 .contact p {
 	text-align: left;
+	margin-bottom: 0;
 }
 
 .links {
@@ -341,7 +466,9 @@ footer{
 }
 
 #prpa-vkweb {
-	padding-top:3%;
+	position: relative;
+	margin-top: 1rem;
+	padding-top:1%;
 }
 
 #prpa-vkweb i {
