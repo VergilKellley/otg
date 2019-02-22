@@ -1,6 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<title>OTG Sports Management</title>
+
+	<!---------------------main css file----------------------->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Bootstrap v4.2 cdn ----------------------------------->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+	<!------------------bootstrap min.css file------------------>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<!---------------------font awesome cdn----------------------------->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-------------------jquery cdn-------------------------------->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+	<!-- scroll reveal link-->
+	<script src="https://unpkg.com/scrollreveal"></script>
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,64 +29,212 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="Vergil Kelley" content="">
-	<title>OTG Sports Management</title>
-	<style type="text/css">
 
-		body {
-			margin:0;
-			padding:0;
-		}
-		.wrapper {
-			width: 100%;
-			height: 100vh;
-			background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.9)), url('img/bengals-player.jpg');
-			background-position: center;
-			background-size: cover;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			flex-direction: column;
-			color: #fff;
-			font-size: 2vw;
-		}
+	<!---------------mainhtml.js file---------------------------------->
+	<!--<script src="js/mainhtml.js"></script>-->
 
-		@keyframes animate {
-			0%{
-				transform: scale(0);
-			}
-
-			100% {
-				transform: scale(1);
-			}
-		}
-
-		h1 {
-			animation: animate 2s 1;
-		}
-
-		h1 span {
-			color: green;
-		}
-
-		.btn {
-			text-decoration: none;
-			padding: 10px 50px;
-			color: #fff;
-			border: 2px #fff solid;
-			transition: 0.6s ease;
-			animation: animate 2s 1;
-		}
-
-		.btn:hover {
-			background-color: green;
-			color: #fff;
-		}
-	</style>
 </head>
+
 <body>
-	<div class="wrapper">
-		<h1><span>OTG</span> Sports Management</h1>
-		<a href="index.html" class="btn">Enter</a>
-	</div>
+	<header class="container-fluid p-0">
+		<div class="row">
+			<div class="col-sm-12 col-md-3 mx-auto" id="logo">
+				<a href="#"><img src="img/logo.png"></a>
+			</div>
+			<div class="col-sm-12 col-md-4 mx-auto">
+				<nav id="top-nav">
+					<ul>
+						<li><a href="index.html" target="_blank">Home</a></li>
+						<li><a href="index-2.html" target="_blank">website-2</a></li>
+						<li><a href="index-3.html" target="_blank">website-3</a></li>
+						<li><a href="landingpage.html" target="_blank">landingpage</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-sm-12 col-md-3 mx-auto phone">
+				<p>847.208.3971</p>
+			</div>
+		</div>
+	</header>
+
+	<section class="container-fluid p-0 count-down-container">
+		<div class="row">
+			<div class="col-sm-12 col-md-4 mr-auto ">
+				<p class="count-down-box">Combine 2019 <br> <span id="days"></span> DAYS <span id="hrs"></span> HOURS <span id="min"></span> MINUTES <span id="sec"></span> SECONDS</p>
+				<p></p>
+			</div>
+			<!--<div class="col-sm-12 col-md-4 mx-auto count-down-title">
+				<h5>Count Down</h5>
+			</div>-->
+			<div class="col-sm-12 col-md-4 ml-auto">
+				<p class="count-down-box">Draft Day 2019 <br> <span id="dddays"></span> DAYS <span id="ddhrs"></span> HOURS <span id="ddmin"></span> MINUTES <span id="ddsec"></span> SECONDS</p>
+			</div>
+		</div>
+		
+
+	</section>
+	<section class="container-fluid p-0">
+		<div class="row">
+			<div class="col-sm-12">
+				<img id="header-img" src="img/field.jpg">
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid p-0 nfl-sports-mngt-container">
+		<div class="row">
+			<div class="col-sm-12 mx-auto">
+				<h1 class="otg-h1">OTG</h1>
+				<span class="otg-h1-text">Sports Management</span>
+				<h3>NFL Agents</h3>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid p-0 nfl-otg-links-container mx-auto">
+		<div class="row">
+			<div class="col-md-4 nfl-facts-container mx-auto">
+				<h5>NFL Facts</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodLorem <a href="#">aliqua</a>.<br><br>
+				Lorem Lorem ipsum dolor sit amet, et dolore magna <a href="#">aliqua</a>. <br><br>
+				Lorem ipsum dolor sit magna <a href="#">Read more... </a>. </p>
+
+			</div>
+			<div class="col-sm-12 col-md-4 mx-auto otg-sports-container otg-sports-container-2">
+				<h3>Our Mission</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="col-md-4 links-container mx-auto">
+				<h5>Links</h5>
+				<ul>
+					<li><a href="">Combine Prep</a></li>
+					<li><a href="">Draft Day</a></li>
+					<li><a href="">Training</a></li>
+					<li><a href="">Making the cut</a></li>
+					<li><a href="">Health Care</a></li>
+					<li><a href="">Trusting the process</a></li><br>
+					<h6>More Links</h6><br><br>
+					<li><a href="">Pro Football 101</a></li>
+					<li><a href="">Our Mission</a></li>
+					<li><a href="">Meet the staff</a></li>
+					<li><a href="">More stuff</a></li>
+					<li><a href="">Nutrition</a></li>
+					<li><a href="">Life after Football</a></li>
+				</ul>
+			</div>
+	</section>
+	
+	<section class="container-fluid p-0 " >
+		<div class="row">
+			<div class="col-sm-6 trust-process-container" >
+				<p>Trust the Process</p>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="trust-img"></div>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid testimonials-container ">
+		<div class="row no-gutters">
+			<div class="col-sm-8 mx-auto testimonials" >
+				<h3>Testimonials</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud.</p>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid p-0 mx-auto images">
+		<div class="row">
+			<div class="col-sm-12 col-md-3 ml-auto img-text-div">
+				<img src="img/img1.png">
+				<h5>Terrell McClain</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. <a href="#">Read More..</a> </p>
+			</div>
+			<div class="col-sm-12 col-md-3 mx-auto img-text-div">
+				<img src="img/img2.png">
+				<h5>Alex McGough</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. <a href="#">Read More..</a> </p>
+			</div>
+			<div class="col-sm-12 col-md-3 mr-auto img-text-div">
+
+				<img src="img/img3.png">
+				<h5>Trey Johnson</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. <a href="#">Read More..</a> </p>
+			</div>
+		</div>
+	</section>
+	<!------------------footer----------------------------->
+		<footer>
+		<div class="container-fluid p-0 mx-auto">
+			<div>
+				<p id="links-text-otg">OTG</p>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-3 mx-auto links links-border">
+					<ul>
+						<li>
+							<a href="https://nfl.com" target="_blank">NFL.COM</a>
+						</li>
+						<li><a href="https://www.ncaa.com/sports/football/fbs" target="_blank">NCAA Football News & Scores</a></li>
+						<li><a href="espn.com" target="_blank">ESPN</a></li>
+						<li><a href="https://bleacherreport.com/college-football" target="_blank">College Football Bleacher Report</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-12 col-md-3 mx-auto links links-border">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#" target="_blank">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-12 col-md-3 mx-auto links contact">
+					<p>Contact Info:</p>
+					<p>OTG Sports Management</p>
+					<p>2711 Broadway Avenue</p>
+					<p>Evanston Illinois 60201</p>
+					<p>847.208.3971</p>
+				</div>
+			</div>
+		</div>
+	
+		<div class="container-fluid p-0 copyright">	
+			<div class="row">
+				<div class="col-sm-12" id="prpa-vkweb">
+					<a href="https://twitter.com/OTGSports" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+					<a href="https://www.facebook.com/OTGSportsManagement" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+					<a href="https://www.linkedin.com/company/otg-sports/about/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+					<a href="mailto:cmartin@otgsports.com?Subject=Hello%20again"target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></a><br>
+					<p id="prpa-copy-right">Copyright &copy; 2019 OTG Sports Management All Rights Reserved</p><a id="vk-link" href="https://vergilkellley.github.io/myportfolio/" target="_blank"> Vergil Kelley Web Design & Development</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/main.js"></script>
+	
 </body>
 </html>
