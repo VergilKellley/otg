@@ -139,6 +139,7 @@ header {
 	padding: .7rem;
 	text-transform: uppercase;
 	border-radius: 10px;
+	box-shadow: 5px 10px 8px #000;
 	/*transform-origin: bottom left;
     -ms-transform: skew(-5deg, 0deg);
     -webkit-transform: skew(-5deg, 0deg);
@@ -152,9 +153,60 @@ header {
 	font-style: italic;
 }
 
+.trust-process-container {
+	content: " ";
+    position: absolute;
+    display: inline;
+    margin-top: -280px;
+    left: 25%;
+    opacity: .7;
+   /* border:1px green solid;*/
+    width: 90%;
+    height: 40%;
+    /*top: 0px;*/
+    /*left: 0px;*/
+    text-align: center;
+    z-index: 3;
+    background: none;
+    transform-origin: bottom left;
+    -ms-transform: skew(-5deg, 0deg);
+    -webkit-transform: skew(-5deg, 0deg);
+    transform: skew(-5deg, 0deg);
+
+}
+
+.trust-process-container p {
+	position:relative;
+	/*margin-top: 220px;*/
+	font-family: arial, sans-serif;
+	font-weight: 400;
+	font-size: 3rem;
+	color: #fff;
+	padding: 3rem;
+	border-radius: 10px;
+	background: green;
+	text-align: center;
+	/*margin-left: 250px;*/
+	text-transform: uppercase;
+}
+
+#trust-img {
+	position: relative;
+	background-image: url('../img/kansas.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	margin-top: 100px;
+	left: 0;
+	min-width: 100vw;
+	height: 400px;
+	z-index: 2;
+}
+
 .nfl-otg-links-container {
 	/*position: absolute;*/
-	margin-top: 3rem;
+	margin-top: 9rem;
 }
 .nfl-facts-container {
 	/*position: absolute;*/
@@ -317,65 +369,9 @@ header {
     border-radius:20px;
 }
 
-/*.trust-process-container {
-	position:absolute;
-	margin-top: 1200px;
-	left: 20%;
-}
-*/
-.trust-process-container {
-	content: " ";
-    /*position: absolute;*/
-    display: block;
-    margin-top: 250px;
-    left: 25%;
-   /* border:1px green solid;*/
-    width: 100%;
-    height: 100%;
-    /*top: 0px;*/
-    /*left: 0px;*/
-    text-align: center;
-    z-index: -1;
-    background: #fff;
-    transform-origin: bottom left;
-    -ms-transform: skew(-5deg, 0deg);
-    -webkit-transform: skew(-5deg, 0deg);
-    transform: skew(-5deg, 0deg);
-
-}
-
-.trust-process-container p {
-	position:relative;
-	/*margin-top: 220px;*/
-	font-family: arial, sans-serif;
-	font-weight: 400;
-	font-size: 3rem;
-	color: #fff;
-	padding: 3rem;
-	border-radius: 10px;
-	background: green;
-	text-align: center;
-	/*margin-left: 250px;*/
-	text-transform: uppercase;
-}
-
-#trust-img {
-	position: relative;
-	background-image: url('../img/kansas.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
-	margin-top: 200px;
-	left: 0;
-	min-width: 100vw;
-	height: 400px;
-	z-index: 2;
-}
-
 .testimonials-container {
 	/*position: absolute;*/
-	margin-top: 10rem;
+	margin-top: 6rem;
 	text-align: center;
 	content: " ";
 	left: -30px;
@@ -405,20 +401,28 @@ header {
 .testimonials p {
 	font-family: serif;
 	font-size: 1.5rem;
-	font-style: italic;
 	font-weight: 400;
 	color: #fff;
 	padding: 1rem;
 	border-radius: 10px;
 	margin-top: 2rem;
 	background: green;
-
+	box-shadow: 5px 10px 8px #000;
 }
 
 .img-text-div {
 	background: #f7f7f7;
 	border-radius: 10px;
 	padding: 10px;
+	border: 1px #000 solid;
+}
+
+.img-text-last-div {
+	background: #f7f7f7;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 8rem;
+	border: 1px #000 solid;
 }
 
 .images{
@@ -429,8 +433,8 @@ header {
 }
 
 .images img {
-	max-width: 10rem;
-	max-height: 10rem;
+	max-width: 190px;
+	max-height: auto;
 	border-radius: 100%;
 	float:left;
 	margin-right: 2em;
@@ -439,12 +443,100 @@ header {
 	shape-outside: circle();
 }
 
+.testimonial-video-link-container {
+	background-color: lightgreen;
+	border-radius: 10px;
+	border: 1px #000 solid;
+}
+
+.testimonial-video-link-container, h5 {
+	padding: 20px;
+}
+
+#img-testimonial-link {
+	width: 100%;
+	height: auto;
+}
+
+.small-img img {
+	max-width: 140px;
+	max-height: auto;
+	border-radius: 100%;
+	float:left;
+	margin-right: 2em;
+	margin-bottom: 0.5em;
+	border:3px green solid;
+	shape-outside: circle();
+}
+
+
+
+
+/******************SERVICES*********************/
+.services-container {
+	margin-top: 6rem;
+	background-color: lightgreen;
+	border-top: 1px #000 solid;
+}
+
+.first-services-text {
+	margin-top: 10rem;
+} 
+
+.services-text {
+	background-color: #f9f9f9;/*light gray*/
+	border: 1px #000 solid;
+	box-shadow: 5px 10px 8px #000;
+	border-radius: 10px;
+	margin-bottom: 10rem;
+}
+
+.services-text h4 {
+	padding: 20px;
+}
+
+.services-text img {
+	display: inline;
+	float: left;
+	padding: 20px;
+	max-width: 250px;
+	height: auto;
+	border-radius: 10px;
+}
+
+/********************ABOUT***********************/
+.about-container {
+	margin-top: 10rem;
+}
+
+.about-text {
+	background-color: #f9f9f9;/*light gray*/
+	border: 1px #000 solid;
+	border-radius: 10px;
+	margin-bottom: 5rem;
+	padding: 20px;
+}
+
+.about-text h4 {
+	color: green;
+}
+
+.about-text p {
+	padding: 20px;
+	color: red;
+}
+
+.about-text iframe {
+	padding: 20px;
+	float: left;
+	display: inline-block;
+}
 /***************STAFF**************************/
 
 .staff-wrapper {
 	/*position: relative;*/
 	text-align: center;
-	margin-top:20rem;
+	margin-top:16rem;
 	 /*left: 25%;*/
    /* border:1px green solid;*/
     width: 100%;
@@ -541,6 +633,7 @@ header {
 	background-color: #f7f7f7;
 	padding: 20px;
 	border-radius: 10px;
+	border: 1px #000 solid;
 }
 
 
