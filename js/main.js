@@ -71,3 +71,29 @@
 				}
 
 				countDowndd();
+
+/**********************IMAGE SLIDER ON CLIENTS PAGE************************/
+
+//image slider
+$(document).ready(function(){
+	var imageName = ["img/img1.png", "img/img2.png", "img/img3.png", "img/img4.png", "img/img5.png", "img/img6.png", "img/img7.png", "img/img8.png", "img/img9.png", "img/img10.png", "img/img11.png", "img/img12.png"];
+	//var imageName2 = ["img/img11.jpg", "img/img12.jpg", "img/img13.jpg"]
+	var imageTitle = [];
+	var counter = 0;
+
+	var clickaway =
+	function go(){
+		$("#picture").fadeOut(300, function(){
+			$("#picture").attr("src", imageName[counter]);
+			$("#imageCaption").text(imageTitle[counter]);
+			counter++;
+			if (counter > 11) {counter = 0;}
+			$("#picture").fadeIn(500).delay(3000);
+			go();// comment this line out to turn into click image slider
+		});
+	}
+	clickaway();
+	//uncomment below to turn into click image slider
+	//$("#picture").click(clickaway);
+});
+
