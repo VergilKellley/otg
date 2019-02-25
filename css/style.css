@@ -50,14 +50,34 @@ header {
 
 #logo img{
 	margin-top: 1rem;
-	margin-left: 10rem;
+	margin-left: 6rem;
 }
 
 .phone p {
-	margin-top: 3rem;
-	text-align: center;
+	margin-top: 1.5rem;
+	margin-right: 1.5rem;
+	/*text-align: center;*/
+	font-size: 1.5em;
 	color: green;
 	font-family: arial, sans-serif;
+}
+
+.phone a i {
+	color: green;
+	padding-right: 15px;
+	font-size: 1.5rem;
+}
+
+.phone a i:hover {
+	color: lightgreen;
+}
+
+.current {
+	padding-bottom: 1rem;
+	border-bottom: 4px green solid;
+	/*text-decoration: none;*/
+	color: lightgreen;
+	opacity: .4;
 }
 
 .count-down-title {
@@ -146,12 +166,12 @@ header {
     transform: skew(-5deg, 0deg);*/
 }
 
-.nfl-sports-mngt-container h3 {
+/*.nfl-sports-mngt-container h3 {
 	color: green;
 	padding-top: 1.5rem;
 	text-transform: uppercase;
 	font-style: italic;
-}
+}*/
 
 .trust-process-container {
 	content: " ";
@@ -282,8 +302,8 @@ header {
 
 .links-container h5 {
 	position: absolute;
-	right: 8.5rem;
-	top: 2rem;
+	right: 6.5rem;
+	top: 1rem;
 }
 
 .links-container h6 {
@@ -299,21 +319,37 @@ header {
 	top: 4rem;
 }
 
+.red-text {
+	color: red;
+}
+
 .otg-sports-container {
 	height: 580px;
+	text-align: center;
+}
+
+.page-name {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: green;
+	font-family: arial, sans-serif;
+	padding-top: 1.5rem;
+	text-transform: uppercase;
+	font-style: italic;
 }
 
 .otg-sports-container h3 {
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: 400;
+	/*text-align: center;*/
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*width: 440px;*/
 	color: green;
-	font-family: arial, sans-serif;
 }
 
 .otg-sports-container p {
 	font-size: 1.5rem;
-	text-align: center;
+	/*text-align: center;*/
 	padding-bottom: 1rem;
 }
 
@@ -326,7 +362,7 @@ header {
     font-size: 20px;
     color: #000;
     background: #f7f7f7;
-   border-top:1px green solid;
+   	border-top:1px green solid;
     border-bottom: 1px green solid
     border-radius:20px;
 
@@ -349,6 +385,7 @@ header {
     -webkit-transform: skew(-5deg, 0deg);
     transform: skew(-5deg, 0deg);
     border-radius:20px;
+    text-align: center;
 }
 
 .otg-sports-container-2:before {
@@ -371,7 +408,8 @@ header {
 
 .testimonials-container {
 	/*position: absolute;*/
-	margin-top: 6rem;
+	margin-top: 10rem;
+	margin-bottom: 10rem;
 	text-align: center;
 	content: " ";
 	left: -30px;
@@ -509,29 +547,53 @@ header {
 	margin-top: 10rem;
 }
 
+.green-text {
+	color: green;
+}
+
 .about-text {
+	margin-top: 5rem;
+}
+
+.about-img-text-video {
 	background-color: #f9f9f9;/*light gray*/
 	border: 1px #000 solid;
 	border-radius: 10px;
 	margin-bottom: 5rem;
-	padding: 20px;
+	/*padding: -80px;*/
+	text-align: center;
+	box-shadow: 5px 10px 8px #000;
 }
 
-.about-text h4 {
-	color: green;
+.about-img-text-video p {
+	text-align: left;
 }
 
-.about-text p {
-	padding: 20px;
-	color: red;
+.first-p {
+	padding-top: 20px;
 }
 
-.about-text iframe {
-	padding: 20px;
-	float: left;
-	display: inline-block;
+	padding-top: 20px;
 }
-/***************STAFF**************************/
+
+.about-img-text-video h4 {
+	display: block;
+	padding-top: 20px !important;
+}
+
+.about-img-text-video h5{
+	text-align: center;
+}
+
+.about-img-text-video h6{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.about-img-text-video img {
+	position: relative;
+	vertical-align: inherit;
+}
 
 .staff-wrapper {
 	/*position: relative;*/
@@ -560,50 +622,44 @@ header {
 
 .staff-sarahL-image-text-container {
 	/*position: relative;*/
-	margin-top: 20rem;
-	margin-left: 25%;
-	text-align: right;
+	margin-top: 5rem;
 }
 
 .staff-laurenW-image-text-container {
 	/*position: relative;*/
-	margin-top: 20rem;
-	margin-left: 25%;
-	text-align: left;
+	margin-top: 10rem;
 }
 
 .staff-garyRoberts-image-text-container {
 	/*position: relative;*/
-	margin-top: 20rem;
-	margin-left: 25%;
-	text-align: right;
+	margin-top: 10rem;
 }
 
 .staff-robMay-image-text-container {
 	/*position: relative;*/
-	margin-top: 20rem;
-	margin-left: 25%;
-	text-align: left;
+	margin-top: 10rem;
 }
 
 .staff-jonathanJoseph-image-text-container {
 	/*position: relative;*/
-	margin-top: 20rem;
-	margin-left: 25%;
-	text-align: right;
+	margin-top: 10rem;
+	margin-bottom: 10rem;
 }
 
 .staff-tyroneKeys-image-text-container {
 	/*position: relative;*/
-	margin-top: 20rem;
-	margin-left: 25%;
-	text-align: left;
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+}
+
+.float-staff-img-left {
+	box-shadow: 5px 10px 8px #000;
 }
 
 .float-staff-img-left img {
 	/*position: relative;*/
 	width: 60%;
-	max-width: 300px;
+	max-width: 200px;
 	height: auto;
 	border-radius: 50%;
 	float:left;
@@ -631,7 +687,7 @@ header {
 
 .staff-images {
 	background-color: #f7f7f7;
-	padding: 20px;
+	padding: 10px;
 	border-radius: 10px;
 	border: 1px #000 solid;
 }
