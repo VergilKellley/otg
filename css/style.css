@@ -760,11 +760,13 @@ header {
 	background-color: green;
 }
 
+.clients-img-border img {
+	border-radius: 50%;
+}
 
 .image-fluid {
 	width: 100%;
 	height: auto;
-	border-radius: 50%;
 }
 
 .our-clients-text-container h4 {
@@ -773,7 +775,8 @@ header {
 
 .our-clients-text-container {
 	border-left: 4px green solid;
-	margin-left: 80px;
+	/*margin-left: 80px;*/
+	margin-left: 4rem;
 }
 
 .our-clients-text-container2 {
@@ -788,18 +791,38 @@ header {
 	margin-left: 8rem;
 }
 
-.image-fluid {
-	width: 100%;
-	height: auto;
-	border-radius: 50%;
-}
-
 .our-clients-text-container2 h4 {
 	margin-top: 5rem;
 }
 
 .our-clients-text-container2 {
 	border-right: 4px green solid;
+}
+
+.profile-img-container {
+	padding-top: 20px;
+}
+
+.profile-img {
+	width: 100%;
+}
+
+.client-name-plate {
+	position: relative;
+	text-align: center;
+	font-size: 1.1rem;
+	top: -40px;
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.client-name-plate-more-space {
+	position: relative;
+	text-align: center;
+	font-size: 1.1rem;
+	top: -60px;
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.6);
 }
 
 
