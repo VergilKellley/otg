@@ -449,18 +449,20 @@ header {
 }
 
 .img-text-div {
-	background: #f7f7f7;
+	/*background: #f7f7f7;
 	border-radius: 10px;
 	padding: 10px;
-	border: 1px #000 solid;
+	border: 1px #000 solid;*/
+	border-right: 4px green solid;
 }
 
 .img-text-last-div {
-	background: #f7f7f7;
+	/*background: #f7f7f7;
 	border-radius: 10px;
-	padding: 10px;
+	padding: 10px;*/
 	margin-top: 8rem;
-	border: 1px #000 solid;
+	/*border: 1px #000 solid;*/
+	border-bottom: 4px green solid;
 }
 
 .images{
@@ -513,8 +515,8 @@ header {
 /******************SERVICES*********************/
 .services-container {
 	margin-top: 6rem;
-	background-color: lightgreen;
-	border-top: 1px #000 solid;
+    /*background-color: lightgreen;
+	border-top: 1px #000 solid;*/
 }
 
 .first-services-text {
@@ -556,13 +558,14 @@ header {
 }
 
 .about-img-text-video {
-	background-color: #f9f9f9;/*light gray*/
-	border: 1px #000 solid;
+	/*background-color: #f9f9f9;/*light gray*/
+	/*border: 1px #000 solid;
 	border-radius: 10px;
 	margin-bottom: 5rem;
 	/*padding: -80px;*/
 	text-align: center;
-	box-shadow: 5px 10px 8px #000;
+	/*box-shadow: 5px 10px 8px #000;*/
+	border-bottom: 4px green solid;
 }
 
 .about-img-text-video p {
@@ -652,9 +655,9 @@ header {
 	margin-bottom: 10rem;
 }
 
-.float-staff-img-left {
+/*.float-staff-img-left {
 	box-shadow: 5px 10px 8px #000;
-}
+}*/
 
 .float-staff-img-left img {
 	/*position: relative;*/
@@ -686,10 +689,11 @@ header {
 }
 
 .staff-images {
-	background-color: #f7f7f7;
+	/*background-color: #f7f7f7;
 	padding: 10px;
 	border-radius: 10px;
-	border: 1px #000 solid;
+	border: 1px #000 solid;*/
+	border-bottom: 4px green solid;
 }
 
 
@@ -784,7 +788,7 @@ header {
 }
 
 .clients-img-text-container2 {
-		margin: 10rem 0 10rem 7rem;
+		margin: 10rem 0 10rem 6.3rem;
 }
 
 .clients-img-container2 {
@@ -800,11 +804,13 @@ header {
 }
 
 .profile-img-container {
-	padding-top: 20px;
+	margin-top: 20px;
+	
 }
 
 .profile-img {
 	width: 100%;
+	border:1px #000 solid;
 }
 
 .client-name-plate {
@@ -816,6 +822,11 @@ header {
 	background-color: rgba(255, 255, 255, 0.6);
 }
 
+.client-name-plate:hover {
+	background-color: rgba(255, 255, 255, 0.9);
+	cursor: pointer;
+}
+
 .client-name-plate-more-space {
 	position: relative;
 	text-align: center;
@@ -823,6 +834,11 @@ header {
 	top: -60px;
 	color: #000;
 	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.client-name-plate-more-space:hover {
+	background-color: rgba(255, 255, 255, 0.9);
+	cursor: pointer;
 }
 
 
