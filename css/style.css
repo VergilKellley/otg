@@ -526,7 +526,7 @@ header {
 .services-text {
 	background-color: #f9f9f9;/*light gray*/
 	border: 1px #000 solid;
-	box-shadow: 5px 10px 8px #000;
+	box-shadow: 5px 10px 8px green;
 	border-radius: 10px;
 	margin-bottom: 10rem;
 }
@@ -839,6 +839,57 @@ header {
 .client-name-plate-more-space:hover {
 	background-color: rgba(255, 255, 255, 0.9);
 	cursor: pointer;
+}
+
+/******************MEDIA**********************/
+.media-text-img-video-container {
+	margin-top: 15rem;
+}
+
+.media-text-img-video-container h3 {
+	text-align: center;
+}
+
+.media1-png {
+	margin-top: 4rem;
+	border-bottom: 4px green solid;
+}
+
+.media1-png img {
+	width: 40%;
+	height: auto;
+	border-radius: 50%;
+	border: 4px green solid;
+	float:left;
+	margin-right: 2em;
+	margin-bottom: 0.5em;
+	shape-outside: circle();
+}
+
+.media-png-container {
+	margin: 10rem 0;
+}
+
+#natrell-video-media-page {
+	margin-top: 2rem;
+	width: 100%;
+	height: 315px;
+}
+
+.media-png img {
+	width: 550px;
+	height: 400px;
+}
+
+.media-png p {
+	font-size: 1.2rem;
+	background-color: lightgreen;
+	padding: .5em;
+	text-align: center;
+}
+
+.media-page-obi-video {
+	margin-bottom: 10rem;
 }
 
 
