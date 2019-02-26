@@ -3,7 +3,7 @@
 		/******************************COMBINE COUNT DOWN************************/
 				function countDown() {
 					var today = new Date();
-					var eventDate = new Date("FEBRUARY 26, 2019 00:00");
+					var eventDate = new Date("FEBRUARY 26, 2020 00:00");
 
 					var currentTime = today.getTime();
 					var eventTime = eventDate.getTime();
