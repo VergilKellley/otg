@@ -99,7 +99,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100vw;
-	height: 2870px;
+	height: 1870px;
 	background-attachment: fixed;
 }
 
@@ -107,7 +107,7 @@ body {
 	position: relative;
 	top: -2px;
 	background-color: rgba(255, 255, 255, .6);
-	height:2872px;
+	height:1872px;
 }
 
 .otg-sports-mngt-text {
@@ -484,7 +484,42 @@ body {
 	border-right: 4px green solid;
 }
 
+/********************SERVIVES************************/
+.services-page-container {
+	position: relative;
+	/*background-color: #fff;*/
+	top: 16rem;
+	margin: 0;
+	padding: 0;
+}
+
+.services-page-text-container {
+	background-color: rgba(255, 255, 255, .8);
+	border: 1px #000 solid;
+	padding: 20px;
+}
  
+.services-page-text-container h2 {
+	text-align: center;
+}
+
+.services-page-text-container #services-chris-img {
+	float: left;
+	padding: 0 20px 20px 0; 
+}
+
+.trust-text-container {
+	margin-top: 4rem;
+	text-align: center;
+	color: #fff;
+	background-color: rgb(3, 114, 18);
+	height: 7rem;
+	width: 100%;
+}
+
+.trust-text-container h3 {
+	padding-top: 3%;
+}
 
 /***************footer*****************/
 footer{
