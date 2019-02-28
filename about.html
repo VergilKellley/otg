@@ -4,14 +4,12 @@
 	<title>OTG Sports Management</title>
 
 	<!---------------------main css file----------------------->
-	
+	<link rel="stylesheet" type="text/css" href="css/new.css">
+	<link rel="stylesheet" type="text/css" href="css/about.css">
 
 	<!-- Bootstrap v4.2 cdn ----------------------------------->
-	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>-->
 
 	<!------------------bootstrap min.css file------------------>
@@ -33,16 +31,18 @@
 	<meta name="keywords" content="">
 	<meta name="Vergil Kelley" content="">
 
+	<!---------------mainhtml.js file---------------------------------->
+	<!--<script src="js/mainhtml.js"></script>-->
+
 </head>
 
 <body>
-	<header class="container-fluid p-0">
-		<div class="row">
-			<div class="col-sm-12 col-md-2 mx-auto" id="logo">
-				<a href="landingpage.html"><img src="img/logo.png"></a>
-			</div>
-			<div class="col-sm-12 col-md-7 mx-auto">
-				<nav id="top-nav">
+		<header class="container-fluid p-0">
+			<div class="row" >
+				<div class="col-md-2">
+					<a class="nav-logo logo" href="landingpage.html"><img src="img/logo.png"></a>
+				</div>
+				<nav class="col-sm-7 mx-auto" id="top-nav">
 					<ul>
 						<li><a href="landingpage.html">Home</a></li>
 						<li><a href="services.html">Services</a></li>
@@ -53,79 +53,100 @@
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
-			</div>
-			<div class="col-sm-12 col-md-3 mx-auto phone">
-				<p>847.208.3971</p>
-				<a href="https://twitter.com/OTGSports" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<div class="col-sm-12 col-md-3 phone">
+					<p >847.208.3971</p>
+					<a href="https://twitter.com/OTGSports" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 					<a href="https://www.facebook.com/OTGSportsManagement" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
 					<a href="https://www.linkedin.com/company/otg-sports/about/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 					<a href="mailto:cmartin@otgsports.com?Subject=Hello%20again"target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				</div>
 			</div>
-		</div>
-	</header>
+		</header>
 
 	<section class="container-fluid p-0 count-down-container">
 		<div class="row">
-			<div class="col-sm-12 col-md-4 mr-auto ">
+			<div class="col-sm-12 col-md-6 mx-auto ">
 				<p class="count-down-box">NFL Combine 2020 <br> <span id="days"></span> DAYS <span id="hrs"></span> HOURS <span id="min"></span> MINUTES <span id="sec"></span> SECONDS</p>
-				<p></p>
 			</div>
-			<!--<div class="col-sm-12 col-md-4 mx-auto count-down-title">
-				<h5>Count Down</h5>
-			</div>-->
-			<div class="col-sm-12 col-md-4 ml-auto">
+			<div class="col-sm-12 col-md-6 mx-auto ">
 				<p class="count-down-box">NFL Draft Day 2019 <br> <span id="dddays"></span> DAYS <span id="ddhrs"></span> HOURS <span id="ddmin"></span> MINUTES <span id="ddsec"></span> SECONDS</p>
 			</div>
 		</div>
-		
-
 	</section>
-	<section class="container-fluid p-0">
+	<section class="container-fluid p-0 otg-top-container-about-page">
 		<div class="row">
 			<div class="col-sm-12">
-				<img id="header-img" src="img/field.jpg">
+				<div id=footballfield"></div>
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-sm-10 mx-auto otg-background-color-about-page">
+					<div class="otg-sports-mngt-text">
+					<h1 class="otg-h1">OTG</h1>
+					<span class="otg-h1-text">Sports Management</span>
+					<h3 class="page-name">About Us</h3>
+					</div>
+				</div>
+			</div>
+	</section>
+	
+	<section class="container-fluid p-0 top-about-container">
+		<div class="row">
+			<!--<div class="col-sm-10 col-md-2 nfl-facts-container mx-auto">
+				<h5 class="red-text">NFL Facts</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodLorem sit amet, consectetur adipisicing elit. sit amet, consectetur adipisicing elit.<a href="#">aliqua</a>.
+			</div>-->
+			<div class="col-sm-10 col-md-6 mx-auto top-about-text-container">
+				<p>At <span class="green-text">OTG</span> Sports Management, our underlying framework is built on family values, always demonstrating to our clients the unconditional support, career guidance, life skills, and personal attention necessary to pave their own road for success.
+				As many of our team members are former football players, we have the insight and intelligence to help our clients succeed on their path to the Draft, during their professional careers and post-career.  We support each client and their families individually in order to produce the best possible experience.</p>
+				<p><span class="green-text">OTG</span> Sports Management is based just north of Chicago, in Evanston, Illinois.  We also feature offices in Tampa and Miami, Florida, giving us the flexibility to be wherever the client needs us. Noting <span class="green-text">OTG</span> Sports Management is a Football Family, we are there for our clients 24 hours a day, 7 days a week, available whenever and for whatever the client needs.</p>
+			</div>
+			<!--<div class="col-sm-10 col-md-2 links-container mx-auto red-text">
+				<h5>Links</h5>
+				<ul>
+					<li><a href="">Combine Prep</a></li>
+					<li><a href="">Draft Day</a></li>
+					<li><a href="">Training</a></li>
+					<li><a href="">Making the cut</a></li>
+					<li><a href="">Nutrition</a></li>
+					<li><a href="about.html">Meet our team</a></li>
+				</ul>
+			</div>-->
+		</div>
+	</section>
+	<section class="container-fluid p-0 about-container">
+		<div class="row">
+			<div class="col-sm-10 mx-auto team-text-container">
+				<h3>Our Team</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2 mx-auto square-container">
+				<div class="square"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-10 mx-auto about-img-text-video about-text-container">
+				<br><br>
+				<h4><span class="green-text">James <span class="black-quotes">"</span>Chris<span class="black-quotes">"</span> Martin</span> President & CEO <span class="green-text"> OTG </span>Sports Management</h4>
+				<h5>Former Northwestern <span class="purple"> Wildcat</span></h5>
+				<a href="mailto:cmartin@otgsports.com?Subject=Hello%20again"target="_top"><h6><span class="green-text">cmartin@otgsports.com</span></h6></a>
+				<img src="img/jcm.jpeg">
+				<img src="img/jcm2.png">
+				<iframe width="500" height="201" src="https://www.youtube.com/embed/KPto1x2V1m8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<img src="img/jcm3.png">
+
+				<p class="first-p">Chris Martin's love affair with football started early in life. Growing up in Tampa, FL, he attended Jesuit High School where he earned distinction as an All-State Wide Receiver and Defensive Back from 1990 to 1992. Recruited by Northwestern University in Evanston, Illinois, Chris became a dynamic force for the Wildcats from 1992-1996 where he was named to the All-American and All-Big Ten Teams respectively as a Defensive Back. He was a catalyst for NU's "Dream Season", taking the team to the Big 10 Championship and Rose Bowl in 1996. He graduated with a Bachelor of Science degree that same year.<br><br>
+
+				Following Northwestern, Chris joined the Chicago Bears as a Defensive Back and special teams player for the 1996-1997 seasons. He managed to keep his passion for sports alive after his football career by launching a leading sports company in the Chicagoland area.<br><br>
+
+				On-the-go Sports, Inc., developed in 1998, currently works with more than 50 park districts and sports facilities throughout Chicago and various suburban areas touching the lives of thousands of youths annually. In addition, he is the founder of Scoring For Youth, a non-profit organization designed to host free youth sports camps and clinics in inner-city areas. In an effort to build a vertical platform and expand the aforementioned companies to unchartered territories, Chris launched <span class="green-text">OTG</span> Sports Management. OTGSM has taken the Sports Management world by storm garnering instant success while carefully constructing a company that's built to last.</p>
 			</div>
 		</div>
 	</section>
-
-	<div class="container-fluid p-0 staff-wrapper">
-		<div class="row">
-			<div class="col-sm-12 mx-auto">
-				<h1 class="otg-h1">otg</h1> <span class="otg-h1-text">Sports Management</span>
-				<h3 class="page-name">About Us</h3>
-			</div>
-		</div>
-	</div>
-	<div class="container-fluid p-0 about-text">
-		<div class="row">
-			<div class="col-sm-10 mx-auto about-text">
-				<p>At <span class="green-text">OTG</span> Sports Management, our underlying framework is built on family values, always demonstrating to our clients the unconditional support, career guidance, life skills, and personal attention necessary to pave their own road for success.
-				As many of our team members are former football players, we have the insight and intelligence to help our clients succeed on their path to the Draft, during their professional careers and post-career.  We support each client and their families individually in order to produce the best possible experience.</p>
-				<p>OTG Sports Management is based just north of Chicago, in Evanston, Illinois.  We also feature offices in Tampa and Miami, Florida, giving us the flexibility to be wherever the client needs us. Noting OTG Sports Management is a Football Family, we are there for our clients 24 hours a day, 7 days a week, available whenever and for whatever the client needs.</p>
-			</div>
-		</div>
-	</div>
-	<div class="container-fluid p-0 about-container">
-		<div class="row">
-			<div class="col-sm-10 mx-auto about-img-text-video">
-				<p></p>
-				<h4><span class="green-text">James "Chris" Martin</span> President & CEO <span class="green-text"> OTG </span>Sports Management</h4>
-				<h5>Former Northwestern Wildcat</h5>
-				<h6><span class="green-text">cmartin@otgsports.com</span></h6>
-				<img src="img/jcm.jpeg">
-				<img src="img/jcm2.png">
-				<iframe width="446" height="201" src="https://www.youtube.com/embed/KPto1x2V1m8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<img src="img/jcm3.png">
-
-				<p class="first-p">Chris Martin's love affair with football started early in life. Growing up in Tampa, FL, he attended Jesuit High School where he earned distinction as an All-State Wide Receiver and Defensive Back from 1990 to 1992. Recruited by Northwestern University in Evanston, Illinois, Chris became a dynamic force for the Wildcats from 1992-1996 where he was named to the All-American and All-Big Ten Teams respectively as a Defensive Back. He was a catalyst for NU's "Dream Season", taking the team to the Big 10 Championship and Rose Bowl in 1996. He graduated with a Bachelor of Science degree that same year.</p>
-				<p>Following Northwestern, Chris joined the Chicago Bears as a Defensive Back and special teams player for the 1996-1997 seasons. He managed to keep his passion for sports alive after his football career by launching a leading sports company in the Chicagoland area.</p>
-				<p>On-the-go Sports, Inc., developed in 1998, currently works with more than 50 park districts and sports facilities throughout Chicago and various suburban areas touching the lives of thousands of youths annually. In addition, he is the founder of Scoring For Youth, a non-profit organization designed to host free youth sports camps and clinics in inner-city areas. In an effort to build a vertical platform and expand the aforementioned companies to unchartered territories, Chris launched OTG Sports Management. OTGSM has taken the Sports Management world by storm garnering instant success while carefully constructing a company that's built to last.</p>
-			</div>
-		</div>
-	</div>
 	<div class="container-fluid p-0  staff-sarahL-image-text-container">
 		<div class="row">
-			<div class="col-sm-4 float-staff-img-left mx-auto staff-images ">
+			<div class="col-sm-4 float-staff-img-left ml-auto staff-images-green-border">
 				<img src="img/sarahL.png">
 				<h4><span class="green-text">Sara Latronica</span></h4>
 				<h5>Marketing Coordinator</h5>
@@ -134,7 +155,7 @@
 				Sara has always had a passion through sports, stemming from an impressive career as a high school golfer.  She continues to be an avid football fan, closely following her hometown Chicago Bears and alma mater, Iowa Hawkeyes. 
 				An outgoing and zealous person, Sara loves working with others.  She loves sharing her excitement for football with others in the same field and through all of her marketing enterprises.  Her focus at OTG Sports is fulfilling marketing dreams of each individual player, as well as making new connections and building team members.</p>
 			</div>
-			<div class="col-sm-4 float-staff-img-left mx-auto staff-images">
+			<div class="col-sm-4 float-staff-img-left mr-auto">
 				<img src="img/laurenW.png">
 				<h4><span class="green-text">Lauren Walsh</span></h4>
 				<h5>Branding Specialist</h5>
@@ -145,14 +166,14 @@
 	</div>
 	<div class="container-fluid p-0  staff-garyRoberts-image-text-container">
 		<div class="row">
-			<div class="col-sm-4 float-staff-img-left mx-auto staff-images ">
+			<div class="col-sm-4 float-staff-img-left ml-auto staff-images-green-border ">
 				<img src="img/garyRoberts.jpeg">
 				<h4><span class="green-text">Gary Roberts</span></h4>
 				<h5>Controller</h5>
 ​				<h6><span class="green-text">groberts@otgsports.com</span></h6>
 				<p>Gary Roberts is a Chicago based CPA, having passed the CPA exam in 2001. He started providing OTG Sports accounting advice in the fall of 2011. Gary has worked for three different companies since graduating from Indiana University in 1999 with a double major in Finance and Accounting. After graduation, Gary worked for Crowe Chizek (Now Crowe Horwath), a public accounting firm with small to medium sized clients, primarily in the US. While at Crowe, Gary provided auditing and tax services to Croweâ€™s clients in addition to working on multiple special projects. After Crowe, Gary went to work for Hub International in 2002, an Insurance Brokerage headquartered in Chicago, with operations primarily in the US and Canada. While working at Hub, he was involved in integrating many acquisitions, which led to Hubâ€™s rapid growth. Gary worked in the Corporate Accounting Group at Hubâ€™s headquarters and focused on all the reporting aspects of the company. He was involved in Hubâ€™s first public filings with the US Securities Exchange Commission (SEC). In addition, in 2007, Gary was involved with Hub going private. Gary gained great experiences from Hub in both a public and private setting and left the Company in 2008. Gary currently is a Director in the Corporate Accounting Group for a large printing company in the Chicago area, which has operations in the US, Canada, Latin America, Europe and Asia. Gary is a huge sports fan and plays basketball recreationally. Gary is currently providing all accounting services to the OTG Sports family.</p>
 			</div>
-			<div class="col-sm-4 float-staff-img-left mx-auto staff-images">
+			<div class="col-sm-4 float-staff-img-left mr-auto">
 				<img src="img/tyroneKeys.jpg">
 				<h4><span class="green-text">Tyrone Keys</span></h4>
 				<p><span class="green-text">1985 Chicago Bears Superbowl Champion</span></p>
@@ -164,21 +185,20 @@
 	</div>
 	<div class="container-fluid p-0  staff-jonathanJoseph-image-text-container">
 		<div class="row">
-			<div class="col-sm-4 float-staff-img-left mx-auto staff-images ">
+			<div class="col-sm-4 float-staff-img-left ml-auto staff-images-green-border ">
 				<img src="img/jonathanJoseph.jpeg">
 				<h4><span class="green-text">Jonathan Joseph</span></h4>
 				<h5>Talent Advisor</h5>
 ​				<h6><span class="green-text">jjoseph@otgsports.com</span></h6>
 				<p></p>
 			</div>
-			<div class="col-sm-4 float-staff-img-left mx-auto staff-images">
+			<div class="col-sm-4 float-staff-img-left mr-auto">
 				<img src="img/robMay.jpeg">
 				<h4><span class="green-text"> Rob May</span></h4>
 				<h5>Director of Operations</h5>
 ​				<h6><span class="green-text">rmay@otgsports.com</span></h6>
 				<p>Rob joined OTG this Spring of 2014.  Prior to joining our staff, Rob attended Mt. Sac and earned his degree in business management.  At Mt. Sac, Rob was a two time All-American and was rated the #1 Juco prospect by rivals.com.  Rob then went on to play linebacker at Florida State University, where he played in every game as a Seminole, starting four games as a senior.  Rob is responsible for the evaluation of new prospects, and recruitment of new business ventures at OTG.  With Rob's 18 plus years of football expertise, he has the skill set to help propel OTG to the next level.  In addition to his work with OTG, Rob continues to coach and mentor athletes of all ages.</p>
 			</div>
-			
 		</div>
 	</div>
 	<!------------------footer----------------------------->
