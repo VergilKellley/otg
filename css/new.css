@@ -484,7 +484,7 @@ body {
 	border-right: 4px green solid;
 }
 
-/********************SERVIVES************************/
+/********************SERVICES************************/
 .services-page-container {
 	position: relative;
 	/*background-color: #fff;*/
@@ -519,6 +519,125 @@ body {
 
 .trust-text-container h3 {
 	padding-top: 3%;
+}
+
+/**************CLIENTS*********************/
+
+.clients-container {
+	margin-top: 20rem;
+	margin-bottom: 10rem;
+}
+
+.clients-believe-container {
+
+}
+.clients-img-text-container {
+	position: relative;
+	left: 2.5rem;
+}
+.clients-img-border {
+	max-width: 400px;
+	height: auto;
+	border: 4px green solid;
+	border-radius: 50%;
+	background-color: green;
+}
+
+.clients-img-border img {
+	border-radius: 50%;
+}
+
+.image-fluid {
+	width: 100%;
+	height: auto;
+}
+
+.our-clients-text-container {
+	position: relative;
+	right: 4rem;
+	background-color: rgba(255, 255, 255, .8);
+	/*border: 1px #000 solid;*/
+	padding: 20px;
+}
+
+.our-clients-text-container h4 {
+	margin-top: 5rem;
+}
+
+.our-clients-text-container {
+	border-left: 4px green solid;
+	/*margin-left: 80px;*/
+	margin-left: 4rem;
+}
+
+.our-clients-text-container2 {
+	position: relative;
+	left: 5rem;
+	text-align: right;
+	background-color: rgba(255, 255, 255, .8);
+	/*border: 1px #000 solid;*/
+	padding: 20px;
+}
+
+.clients-img-text-container2 {
+		margin: 10rem 0 10rem 6.3rem;
+}
+
+.clients-img-container2 {
+	margin-left: 12rem;
+}
+
+.our-clients-text-container2 h4 {
+	margin-top: 5rem;
+}
+
+.our-clients-text-container2 {
+	border-right: 4px green solid;
+}
+
+.all-images-container {
+	margin-top: 8rem;
+	margin-bottom: 4rem;
+}
+
+.profile-img-container {
+	margin-top: 20px;
+	
+}
+
+.profile-img {
+	/*width: 100%;*/
+	border:1px #000 solid;
+	max-width: 350px;
+	height: auto;
+}
+
+.client-name-plate {
+	position: relative;
+	text-align: center;
+	font-size: 1.1rem;
+	top: -40px;
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.client-name-plate:hover {
+	background-color: rgba(255, 255, 255, 0.9);
+	cursor: pointer;
+}
+
+.client-name-plate-more-space {
+	position: relative;
+	text-align: center;
+	font-size: 1.1rem;
+	top: -60px;
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.client-name-plate-more-space:hover {
+	background-color: rgba(255, 255, 255, 0.9);
+	cursor: pointer;
 }
 
 /***************footer*****************/
