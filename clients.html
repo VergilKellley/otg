@@ -4,14 +4,14 @@
 	<title>OTG Sports Management</title>
 
 	<!---------------------main css file----------------------->
-	
+	<link rel="stylesheet" type="text/css" href="css/new.css">
+
+	<!---------------------services css file----------------------->
+	<link rel="stylesheet" type="text/css" href="css/clients.css">
 
 	<!-- Bootstrap v4.2 cdn ----------------------------------->
-	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>-->
 
 	<!------------------bootstrap min.css file------------------>
@@ -33,16 +33,18 @@
 	<meta name="keywords" content="">
 	<meta name="Vergil Kelley" content="">
 
+	<!---------------mainhtml.js file---------------------------------->
+	<!--<script src="js/mainhtml.js"></script>-->
+
 </head>
 
 <body>
-	<header class="container-fluid p-0">
-		<div class="row">
-			<div class="col-sm-12 col-md-2 mx-auto" id="logo">
-				<a href="landingpage.html"><img src="img/logo.png"></a>
-			</div>
-			<div class="col-sm-12 col-md-7 mx-auto">
-				<nav id="top-nav">
+		<header class="container-fluid p-0">
+			<div class="row" >
+				<div class="col-md-2">
+					<a class="nav-logo logo" href="landingpage.html"><img src="img/logo.png"></a>
+				</div>
+				<nav class="col-sm-7 mx-auto" id="top-nav">
 					<ul>
 						<li><a href="landingpage.html">Home</a></li>
 						<li><a href="services.html">Services</a></li>
@@ -53,60 +55,76 @@
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
-			</div>
-			<div class="col-sm-12 col-md-3 mx-auto phone">
-				<p>847.208.3971</p>
-				<a href="https://twitter.com/OTGSports" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<div class="col-sm-12 col-md-3 phone">
+					<p >847.208.3971</p>
+					<a href="https://twitter.com/OTGSports" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 					<a href="https://www.facebook.com/OTGSportsManagement" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
 					<a href="https://www.linkedin.com/company/otg-sports/about/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 					<a href="mailto:cmartin@otgsports.com?Subject=Hello%20again"target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				</div>
 			</div>
-		</div>
-	</header>
+		</header>
 
 	<section class="container-fluid p-0 count-down-container">
 		<div class="row">
-			<div class="col-sm-12 col-md-4 mr-auto ">
+			<div class="col-sm-12 col-md-6 mx-auto ">
 				<p class="count-down-box">NFL Combine 2020 <br> <span id="days"></span> DAYS <span id="hrs"></span> HOURS <span id="min"></span> MINUTES <span id="sec"></span> SECONDS</p>
-				<p></p>
 			</div>
-			<div class="col-sm-12 col-md-4 ml-auto">
+			<div class="col-sm-12 col-md-6 mx-auto ">
 				<p class="count-down-box">NFL Draft Day 2019 <br> <span id="dddays"></span> DAYS <span id="ddhrs"></span> HOURS <span id="ddmin"></span> MINUTES <span id="ddsec"></span> SECONDS</p>
 			</div>
 		</div>
-		
-
 	</section>
-	<section class="container-fluid p-0">
+
+	<section class="container-fluid p-0 otg-top-container-clients-page"><!--otg-top-container-->
 		<div class="row">
 			<div class="col-sm-12">
-				<img id="header-img" src="img/field.jpg">
+				<div id=footballfield"></div>
 			</div>
 		</div>
+			<div class="row">
+				<div class="col-sm-10 mx-auto otg-background-color-clients-page"><!--otg-background-color-->
+					<div class="otg-sports-mngt-text">
+					<h1 class="otg-h1">OTG</h1>
+					<span class="otg-h1-text">Sports Management</span>
+					<h3 class="page-name">Clients</h3>
+					</div>
+				</div>
+			</div>
 	</section>
-
-	<div class="container-fluid p-0 staff-wrapper">
+	
+	<section class="container-fluid p-0 clients-container">
 		<div class="row">
-			<div class="col-sm-12 mx-auto">
-				<h1 class="otg-h1">otg</h1> <span class="otg-h1-text">sports management</span>
-				<h3 class="page-name">clients</h3>
-			</div>
-		</div>
-	</div>
-	<div class="container-fluid p-0 clients-img-text-container">
-		<div class="row">
-			<div class="col-sm-10 col-md-4 p-0 ml-auto">
-					<div class="clients-img-border">
+			<div class="col-sm-10 col-md-4 mx-auto clients-img-text-container">
+				<div class="clients-img-border mx-auto">
 						<img id="picture" src="img/kansas.png" class="image-fluid">
 					</div>
 				</div>
-				<div class="col-sm-10 col-md-5 mr-auto  our-clients-text-container">
-					<h4><span class="green-text">Our Clients</span></h4>
+				<div class="col-sm-10 col-md-4 mr-auto  our-clients-text-container">
+					<h4><span class="green-text">Football Family</span></h4>
 					<p>Our clients are not only our partners, but our family. The OTG Sports Management Team works together with players and coaches from multiple leagues providing unconditional support and guidance. It is our priority to be available twenty-four hours a day, seven days a week to respond to our clients’ needs.  We provide guidance on and off the field to ensure our clients receive attention and guidance throughout their careers, as well as their lives.</p>
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid p-0 clients-img-text-container2">
+	</section>
+	<section class="container-fluid p-0 clients-trust-container">
+		<div class="row">
+			<div class="col-sm-10 mx-auto trust-text-container">
+				<h3>Trust the process!</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2 mx-auto square-container">
+				<div class="square"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-10 mx-auto services-text-container">
+				<h3>Services</h3>
+			</div>
+		</div>
+	</section>
+	<section class="container p-0 clients-img-text-container2">
 		<div class="row">
 			<div class="col-sm-10 col-md-4 ml-auto  our-clients-text-container2">
 				<h4><span class="green-text">Client Workouts</span></h4>
@@ -118,130 +136,147 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="container-fluid p-0">
+	</section>
+	<section class="container-fluid p-0 clients-believe-container">
 		<div class="row">
-			<div class="col-sm-10 col-md-3 ml-auto profile-img-container">
+			<div class="col-sm-10 mx-auto trust-text-container">
+				<h3>Believe!</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2 mx-auto square-container">
+				<div class="square"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-10 mx-auto services-text-container">
+				<h3>Some of our Clients</h3>
+			</div>
+		</div>
+	</section>
+	<div class="container-fluid p-0 all-images-container">
+		<div class="row">
+			<div class="col-sm-3 ml-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile1.png">
 				<p class="client-name-plate">Terrell McClain Atlanta Falcons DT</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mx-auto profile-img-container">
+			<div class="col-sm-3 profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile2.png">
 				<p class="client-name-plate">Kevin Pamphile Tennessee Titans OG</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mr-auto profile-img-container">
+			<div class="col-sm-3 mr-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile3.png">
 				<p class="client-name-plate">Gabe Holmes Arizona Cardinals TE</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-10 col-md-3 ml-auto profile-img-container">
+			<div class="col-sm-3 ml-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile4.png">
 				<p class="client-name-plate">Alex McGough Seattle Seahawks QB</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mx-auto profile-img-container">
+			<div class="col-sm-3 profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile5.png">
 				<p class="client-name-plate">Natrell Jamerson Houston Texans S</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mr-auto profile-img-container">
+			<div class="col-sm-3 mr-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile6.png">
 				<p class="client-name-plate">Akeem Hunt Kansas City Chiefs RB</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-10 col-md-3 ml-auto profile-img-container">
+			<div class="col-sm-3 ml-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile7.png">
 				<p class="client-name-plate-more-space">Eric Weems Tennessee Titans WR/KR <br>*2011 PRO BOWL*</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mx-auto profile-img-container">
+			<div class="col-sm-3 profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile8.png">
 				<p class="client-name-plate">Brad Seaton Cleveland Browns OT</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mr-auto profile-img-container">
+			<div class="col-sm-3 mr-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile9.png">
 				<p class="client-name-plate">Jawill Davis New York Giants WR</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-10 col-md-3 ml-auto profile-img-container">
+			<div class="col-sm-3 ml-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile10.png">
 				<p class="client-name-plate">Malik Reaves Pittsburgh Steelers CB</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mx-auto profile-img-container">
+			<div class="col-sm-3 profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile11.png">
 				<p class="client-name-plate">Mike Love Buffalo Bills DE</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mr-auto profile-img-container">
+			<div class="col-sm-3 mr-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile12.png">
 				<p class="client-name-plate">Cory Carter Buffalo Bills Punter</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-10 col-md-3 ml-auto profile-img-container">
+			<div class="col-sm-3 ml-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile13.png">
 				<p class="client-name-plate">Trey Johnson Pittsburgh Steelers CB</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mx-auto profile-img-container">
+			<div class="col-sm-3 profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile14.png">
 				<p class="client-name-plate">Earl Okine Arizona Cardinals DE</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mr-auto profile-img-container">
+			<div class="col-sm-3 mr-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile15.png">
 				<p class="client-name-plate">Kent Taylor Carolina Panthers TE</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-10 col-md-3 ml-auto profile-img-container">
+			<div class="col-sm-3 ml-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile16.png">
 				<p class="client-name-plate-more-space">Patrick Gamble Tampa Bay Buccaneers DL</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mx-auto profile-img-container">
+			<div class="col-sm-3 profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile17.png">
 				<p class="client-name-plate-more-space">Ryan Lankford Winnipeg Blue Bombers WR</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mr-auto profile-img-container">
+			<div class="col-sm-3 mr-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile18.png">
 				<p class="client-name-plate">Mariel Cooper Hamilton Tiger-Cats CB</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-10 col-md-3 ml-auto profile-img-container">
+			<div class="col-sm-3 ml-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile19.png">
 				<p class="client-name-plate-more-space">Armanti Edwards Toronto Argonauts WR</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mx-auto profile-img-container">
+			<div class="col-sm-3 profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile20.png">
 				<p class="client-name-plate">Frankie Williams Hamilton Tiger-Cats CB</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mr-auto profile-img-container">
+			<div class="col-sm-3 mr-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile21.png">
 				<p class="client-name-plate-more-space">Chandler Worthy Toronto Argonauts WR</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-10 col-md-3 ml-auto profile-img-container">
+			<div class="col-sm-3 ml-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile22.png">
 				<p class="client-name-plate">Cody Riggs AAF Orlando CB</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mx-auto profile-img-container">
+			<div class="col-sm-3 profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile23.png">
 				<p class="client-name-plate">Leon Orr AAF Orlando DL</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mr-auto profile-img-container">
+			<div class="col-sm-3 mr-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile24.png">
 				<p class="client-name-plate">Nick McBeath AAF Orlando LB</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-10 col-md-3 ml-auto profile-img-container">
+			<div class="col-sm-3 ml-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile25.png">
 				<p class="client-name-plate">Danny Ezechukwu AAF San Antonio</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mx-auto profile-img-container">
+			<div class="col-sm-3 profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile26.png">
 				<p class="client-name-plate">Perez Ford IFL Quad City Steamwheelers</p>
 			</div>
-			<div class="col-sm-10 col-md-3 mr-auto profile-img-container">
+			<div class="col-sm-3 mr-auto profile-img-container">
 				<img class="profile-img image-fluid" src="img/profile27.png">
 				<p class="client-name-plate-more-space">Jenson Stoshak Saskatchewan Roughriders WR</p>
 			</div>
@@ -268,7 +303,7 @@
 				</div>
 				<div class="col-sm-12 col-md-3 mx-auto links links-border">
 					<ul>
-						<li><a href="landingpage.html">Home</a></li>
+						<li><a  href="landingpage.html">Home</a></li>
 						<li><a href="services.html">Services</a></li>
 						<li><a href="about.html">About</a></li>
 						<li><a class="current-footer-links" href="clients.html">Clients</a></li>
@@ -298,9 +333,10 @@
 				</div>
 			</div>
 		</div>
+	</div>
 	</footer>
 
 	<script src="js/main.js"></script>
-
+	
 </body>
 </html>
