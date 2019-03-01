@@ -4,14 +4,14 @@
 	<title>OTG Sports Management</title>
 
 	<!---------------------main css file----------------------->
-	
+	<link rel="stylesheet" type="text/css" href="css/new.css">
+
+	<!---------------------services css file----------------------->
+	<link rel="stylesheet" type="text/css" href="css/media.css">
 
 	<!-- Bootstrap v4.2 cdn ----------------------------------->
-	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>-->
 
 	<!------------------bootstrap min.css file------------------>
@@ -33,16 +33,18 @@
 	<meta name="keywords" content="">
 	<meta name="Vergil Kelley" content="">
 
+	<!---------------mainhtml.js file---------------------------------->
+	<!--<script src="js/mainhtml.js"></script>-->
+
 </head>
 
 <body>
-	<header class="container-fluid p-0">
-		<div class="row">
-			<div class="col-sm-12 col-md-2 mx-auto" id="logo">
-				<a href="landingpage.html"><img src="img/logo.png"></a>
-			</div>
-			<div class="col-sm-12 col-md-7 mx-auto">
-				<nav id="top-nav">
+		<header class="container-fluid p-0">
+			<div class="row" >
+				<div class="col-md-2">
+					<a class="nav-logo logo" href="landingpage.html"><img src="img/logo.png"></a>
+				</div>
+				<nav class="col-sm-7 mx-auto" id="top-nav">
 					<ul>
 						<li><a href="landingpage.html">Home</a></li>
 						<li><a href="services.html">Services</a></li>
@@ -53,57 +55,47 @@
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
-			</div>
-			<div class="col-sm-12 col-md-3 mx-auto phone">
-				<p>847.208.3971</p>
-				<a href="https://twitter.com/OTGSports" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<div class="col-sm-12 col-md-3 phone">
+					<p >847.208.3971</p>
+					<a href="https://twitter.com/OTGSports" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 					<a href="https://www.facebook.com/OTGSportsManagement" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
 					<a href="https://www.linkedin.com/company/otg-sports/about/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 					<a href="mailto:cmartin@otgsports.com?Subject=Hello%20again"target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				</div>
 			</div>
-		</div>
-	</header>
+		</header>
 
 	<section class="container-fluid p-0 count-down-container">
 		<div class="row">
-			<div class="col-sm-12 col-md-4 mr-auto ">
+			<div class="col-sm-12 col-md-6 mx-auto ">
 				<p class="count-down-box">NFL Combine 2020 <br> <span id="days"></span> DAYS <span id="hrs"></span> HOURS <span id="min"></span> MINUTES <span id="sec"></span> SECONDS</p>
-				<p></p>
 			</div>
-			<!--<div class="col-sm-12 col-md-4 mx-auto count-down-title">
-				<h5>Count Down</h5>
-			</div>-->
-			<div class="col-sm-12 col-md-4 ml-auto">
+			<div class="col-sm-12 col-md-6 mx-auto ">
 				<p class="count-down-box">NFL Draft Day 2019 <br> <span id="dddays"></span> DAYS <span id="ddhrs"></span> HOURS <span id="ddmin"></span> MINUTES <span id="ddsec"></span> SECONDS</p>
 			</div>
 		</div>
-		
-
 	</section>
-	<section class="container-fluid p-0">
+
+	<section class="container-fluid p-0 otg-top-container-media-page"><!--otg-top-container-->
 		<div class="row">
 			<div class="col-sm-12">
-				<img id="header-img" src="img/field.jpg">
+				<div id=footballfield"></div>
 			</div>
 		</div>
+			<div class="row">
+				<div class="col-sm-10 mx-auto otg-background-color-media-page"><!--otg-background-color-->
+					<div class="otg-sports-mngt-text">
+					<h1 class="otg-h1">OTG</h1>
+					<span class="otg-h1-text">Sports Management</span>
+					<h3 class="page-name">Media</h3>
+					</div>
+				</div>
+			</div>
 	</section>
-
-	<div class="container-fluid p-0 staff-wrapper">
+	<div class="container-fluid p-0 media-container media-text-img-video-container">
 		<div class="row">
-			<div class="col-sm-12 mx-auto">
-				<h1 class="otg-h1">otg</h1> <span class="otg-h1-text">sports management</span>
-				<h3 class="page-name">media</h3>
-			</div>
-		</div>
-	</div>
-	<div class="container-fluid p-0 media-text-img-video-container">
-		<div class="row">
-			<div class="col-sm-10 mx-auto">
+			<div class="col-sm-8 media1-png mx-auto">
 				<h3><span class="green-text">OTG</span> Sports Management Media Presence </h3>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-10 media1-png mx-auto">
 				<img src="img/media1.png">
 				<p><span class="green-text">Natrell Jamerson</span> featured on BTN leading up to the 2018 NFL Draft. Picture Path to 2018 NFL Draft: Wisconsin S Natrell Jamerson Natrell Jamerson showcased versatility, athleticism and strength as much as anybody on Wisconsin’s football roster over the past few years.
 				Jamerson began his Wisconsin career as a wide receiver before moving to cornerback in his sophomore season. He spent two seasons at cornerback and then found a home as a starting safety in 2017. Jamerson also was a dangerous weapon in the kick return game.
@@ -121,13 +113,31 @@
 			</div>
 		</div>
 	</div>
+	<section class="container-fluid p-0 clients-trust-container">
+		<div class="row">
+			<div class="col-sm-10 mx-auto trust-text-container">
+				<h3>Trust the process!</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2 mx-auto square-container">
+				<div class="square"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-10 mx-auto services-text-container">
+				<h3>Expect Victory</h3>
+			</div>
+		</div>
+	</section>
+
 	<div class="container-fluid p-0 media-png-container">
 		<div class="row">
-			<div class="col-sm-10 col-md-5 ml-auto media-png">
+			<div class="col-sm-10 col-md-4 ml-auto media-png">
 				<p>Alex McGough Takes Over PFF</p>
 				<img src="img/media.png" class="img-fluid">
 			</div>
-			<div class="col-sm-10 col-md-5 mr-auto media-png">
+			<div class="col-sm-10 col-md-4 mr-auto media-png">
 				<p>Chris Martin featured as an analyst on BTN.</p>
 				<img src="img/media2.png" class="img-fluid">
 			</div>
@@ -135,7 +145,7 @@
 	</div>
 	<div class="container-fluid p-0">
 		<div class="row">
-			<div class="col-sm-10 mx-auto media-page-obi-video testimonial-video-link-container">
+			<div class="col-sm-8 mx-auto media-page-obi-video testimonial-video-link-container">
 				<h5>TOP 2017 NFL Draft Prospect gives a Shout Out to Chris Martin and OTG Sports while appearing on Path to the Draft! <a href="http://www.nfl.com/videos/nfl-network-path-to-the-draft/0ap3000000795158/Obi-Melifonwu-I-knew-I-was-explosive">Click here</a></h5>
 				<a href="http://www.nfl.com/videos/nfl-network-path-to-the-draft/0ap3000000795158/Obi-Melifonwu-I-knew-I-was-explosive"><img id="img-testimonial-link" src="img/testimonial-video-link.png"></a>
 			</div>
@@ -192,9 +202,10 @@
 				</div>
 			</div>
 		</div>
+	</div>
 	</footer>
 
 	<script src="js/main.js"></script>
-
+	
 </body>
 </html>
