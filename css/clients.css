@@ -1,0 +1,26 @@
+.otg-top-container-clients-page {
+	position: absolute;
+	background-image: url('../img/footballfield.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 5890px;
+	background-attachment: fixed;
+}
+
+.otg-background-color-clients-page {
+	position: relative;
+	top: -2px;
+	background-color: rgba(255, 255, 255, .6);
+	height:5892px;
+}
+
+footer{
+	position: relative;
+	top: 0;
+	bottom:0;
+	/*left: 0;*/
+	height: 80vh;
+	width: 100%;
+	background: #000;
+}
