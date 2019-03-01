@@ -99,7 +99,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100vw;
-	height: 1870px;
+	height: 2270px;
 	background-attachment: fixed;
 }
 
@@ -107,7 +107,7 @@ body {
 	position: relative;
 	top: -2px;
 	background-color: rgba(255, 255, 255, .6);
-	height:1872px;
+	height:2272px;
 }
 
 .otg-sports-mngt-text {
@@ -155,15 +155,40 @@ body {
 }
 
 .mission-text-container {
+	margin-top: 8rem;
+	background-color: rgba(255, 255, 255, .8);
+}
+
+/*.mission-text-container {
 	background-color: rgba(255, 255, 255, .8);
 	border: 1px #000 solid;
 
+}*/
+
+/*.landingpage-slider-container {
+	
+	
+	
+}*/
+
+.landingpage-slider-img-container {
+	border: 4px green solid;
+	background-color: green;
+	border-radius: 50%;
+	max-width: 300px;
+	height: auto;
 }
 
-.mission-text-container h2 {
+.landingpage-slider-img-container img {
+	border-radius: 50%;
+	max-width: 300px;
+	
+}
+
+/*.mission-text-container h2 {
 	text-align: center;
 	color: green;
-}
+}*/
 
 .nfl-facts-container {
 	background-color: rgba(3, 114, 18, .95);
@@ -668,7 +693,12 @@ body {
 }
 
 .media-png-container {
-	margin: 10rem 0;
+	margin: 4rem 0 10rem 0;
+}
+
+.media-png-container h3 {
+	text-align: center;
+	margin-bottom: 4rem;
 }
 
 #natrell-video-media-page {
@@ -684,7 +714,7 @@ body {
 
 .media-png p {
 	font-size: 1.2rem;
-	background-color: lightgreen;
+	background-color: rgba(255, 255, 255, .8);
 	padding: .5em;
 	text-align: center;
 }
@@ -693,6 +723,12 @@ body {
 	margin-bottom: 10rem;
 }
 
+.testimonial-video-link-container div h5{
+	text-align: center;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, .8);
+}
+ 
 /***************footer*****************/
 footer{
 	position: relative;
