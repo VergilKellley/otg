@@ -35,9 +35,6 @@
 	<meta name="keywords" content="">
 	<meta name="Vergil Kelley" content="">
 
-	<!---------------mainhtml.js file---------------------------------->
-	<!--<script src="js/mainhtml.js"></script>-->
-
 </head>
 
 <body>
@@ -98,10 +95,21 @@
 		<div class="container p-0 contact-form-container">
 			<div class="row">
 				<div class="col-sm-6 mx-auto form-bg-container">
-					<form id="my_form" onsubmit="submitForm();" return false; >
+					<div class="company-info">
+						<h3>Contact Info:</h3>
+					<ul>
+					<!----------font awesome icons--------------------->
+							<p>OTG Sports Management</p>
+							<p>2711 Broadway Avenue</p>
+							<p>Evanston Illinois 60201</p>
+						<li><i class="fa fa-phone"> 847.208.3971</i></li>
+						<a href="mailto:cmartin@otgsports.com?Subject=Hello%20again"target="_top"><li><i class="fa fa-envelope"></i> cmartin@otgsports.com</li></a>
+					</ul>
+				</div>
+					<form id="my_form" onsubmit="submitForm(); return false; ">
 						<p><input class="form-control" id="n" placeholder="Full Name" required></p>
 						<p><input class="form-control" id="e" placeholder="Email Address" type="email" required></p>
-						<textarea class="form-control" id="m" placeholder="Message" rows="10" required></textarea>
+						<textarea class="form-control" id="m" placeholder="Message" rows="10" required></textarea><br><br>
 						<p><input class="form-control" id="mybtn" type="submit" value="Submit Message"> <span id="status"></span></p>
 					</form>
 				</div>
