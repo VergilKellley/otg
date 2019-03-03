@@ -728,6 +728,36 @@ body {
 	padding: 20px;
 	background-color: rgba(255, 255, 255, .8);
 }
+
+/****************CONTACT PAGE**********************/
+
+.otg-top-container-contact-page {
+	position: absolute;
+	background-image: url('../img/footballfield.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 800px;
+	background-attachment: fixed;
+}
+
+.otg-background-color-contact-page {
+	position: relative;
+	top: -2px;
+	background-color: rgba(255, 255, 255, .6);
+	height:802px;
+}
+
+.contact-form-container {
+	margin-top: 14rem;
+}
+
+.form-bg-container {
+	/*background-color: rgba(255, 255, 255, .9);*/
+	padding: 2rem;
+	background-color: green;
+	opacity: .8;
+}
  
 /***************footer*****************/
 footer{
