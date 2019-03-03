@@ -4,14 +4,16 @@
 	<title>OTG Sports Management</title>
 
 	<!---------------------main css file----------------------->
+	<link rel="stylesheet" type="text/css" href="css/new.css">
+
+	<!---------------------services css file----------------------->
+	<link rel="stylesheet" type="text/css" href="css/contactform.css">
+
 	
 
 	<!-- Bootstrap v4.2 cdn ----------------------------------->
-	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>-->
 
 	<!------------------bootstrap min.css file------------------>
@@ -33,16 +35,18 @@
 	<meta name="keywords" content="">
 	<meta name="Vergil Kelley" content="">
 
+	<!---------------mainhtml.js file---------------------------------->
+	<!--<script src="js/mainhtml.js"></script>-->
+
 </head>
 
 <body>
-	<header class="container-fluid p-0">
-		<div class="row">
-			<div class="col-sm-12 col-md-2 mx-auto" id="logo">
-				<a href="landingpage.html"><img src="img/logo.png"></a>
-			</div>
-			<div class="col-sm-12 col-md-7 mx-auto">
-				<nav id="top-nav">
+		<header class="container-fluid p-0">
+			<div class="row" >
+				<div class="col-md-2">
+					<a class="nav-logo logo" href="landingpage.html"><img src="img/logo.png"></a>
+				</div>
+				<nav class="col-sm-7 mx-auto" id="top-nav">
 					<ul>
 						<li><a href="landingpage.html">Home</a></li>
 						<li><a href="services.html">Services</a></li>
@@ -53,49 +57,59 @@
 						<li><a class="current" href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
-			</div>
-			<div class="col-sm-12 col-md-3 mx-auto phone">
-				<p>847.208.3971</p>
-				<a href="https://twitter.com/OTGSports" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<div class="col-sm-12 col-md-3 phone">
+					<p >847.208.3971</p>
+					<a href="https://twitter.com/OTGSports" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 					<a href="https://www.facebook.com/OTGSportsManagement" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
 					<a href="https://www.linkedin.com/company/otg-sports/about/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 					<a href="mailto:cmartin@otgsports.com?Subject=Hello%20again"target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				</div>
 			</div>
-		</div>
-	</header>
+		</header>
 
 	<section class="container-fluid p-0 count-down-container">
 		<div class="row">
-			<div class="col-sm-12 col-md-4 mr-auto ">
+			<div class="col-sm-12 col-md-6 mx-auto ">
 				<p class="count-down-box">NFL Combine 2020 <br> <span id="days"></span> DAYS <span id="hrs"></span> HOURS <span id="min"></span> MINUTES <span id="sec"></span> SECONDS</p>
-				<p></p>
 			</div>
-			<!--<div class="col-sm-12 col-md-4 mx-auto count-down-title">
-				<h5>Count Down</h5>
-			</div>-->
-			<div class="col-sm-12 col-md-4 ml-auto">
+			<div class="col-sm-12 col-md-6 mx-auto ">
 				<p class="count-down-box">NFL Draft Day 2019 <br> <span id="dddays"></span> DAYS <span id="ddhrs"></span> HOURS <span id="ddmin"></span> MINUTES <span id="ddsec"></span> SECONDS</p>
 			</div>
 		</div>
-		
-
 	</section>
-	<section class="container-fluid p-0">
+
+	<section class="container-fluid p-0 otg-top-container-contact-page"><!--otg-top-container-->
 		<div class="row">
 			<div class="col-sm-12">
-				<img id="header-img" src="img/field.jpg">
+				<div id=footballfield"></div>
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-sm-10 mx-auto otg-background-color-contact-page"><!--otg-background-color-->
+					<div class="otg-sports-mngt-text">
+					<h1 class="otg-h1">OTG</h1>
+					<span class="otg-h1-text">Sports Management</span>
+					<h3 class="page-name">Contact</h3>
+					</div>
+				</div>
+			</div>
+	</section>
+	<section>
+		<div class="container p-0 contact-form-container">
+			<div class="row">
+				<div class="col-sm-6 mx-auto form-bg-container">
+					<form id="my_form" onsubmit="submitForm();" return false; >
+						<p><input class="form-control" id="n" placeholder="Full Name" required></p>
+						<p><input class="form-control" id="e" placeholder="Email Address" type="email" required></p>
+						<textarea class="form-control" id="m" placeholder="Message" rows="10" required></textarea>
+						<p><input class="form-control" id="mybtn" type="submit" value="Submit Message"> <span id="status"></span></p>
+					</form>
+				</div>
 			</div>
 		</div>
 	</section>
-
-	<div class="container-fluid p-0 staff-wrapper">
-		<div class="row">
-			<div class="col-sm-12 mx-auto">
-				<h1 class="otg-h1">otg</h1> <span class="otg-h1-text">sports management</span>
-				<h3 class="page-name">contact</h3>
-			</div>
-		</div>
-	</div>
+			
+		
 	
 	<!------------------footer----------------------------->
 		<footer>
@@ -148,9 +162,10 @@
 				</div>
 			</div>
 		</div>
+	</div>
 	</footer>
 
 	<script src="js/main.js"></script>
-
+	
 </body>
 </html>
