@@ -99,7 +99,7 @@ $(document).ready(function(){
 
 
 
-// client workout slider
+/******************** client workout slider on clients page***************************/
 $(document).ready(function(){
 	var imageName = ["img/workout1.jpg", "img/workout2.jpg", "img/workout3.jpg", "img/workout4.jpg", "img/workout5.jpg"];
 	//var imageName2 = ["img/img11.jpg", "img/img12.jpg", "img/img13.jpg"]
@@ -122,3 +122,37 @@ $(document).ready(function(){
 	//$("#picture").click(clickaway);
 });
 
+/***********************Contact form*****************************/
+
+
+// enables underscore _(id) to be used in place of document.getElementById()
+function _(id) { return document.getElementById(id);}
+
+function submitForm() {
+
+	// prevents user from submitting form multiple times
+	_("mybtn").disabled = true;
+
+	// lets user know form is processing
+	_("status").innerHTML = 'please wait ...';
+
+	// make a FormData() object
+	var formdata = new FormData();
+	formdata.append( "n", _("n").value );
+	formdata.append( "e", _("e").value );
+	formdata.append( "m", _("m").value );
+
+	var ajax = new XMLHttpRequest();
+	ajax.open( "POST", "otg_parser.php" );
+	ajax.onreadystatechange = function() {
+		if (ajax.readyState == 4 && ajax.status == 200) {
+			if(ajax.responseText == "success") {
+				_("my_fom").innerHTML = '<h2>Thanks '+_("n").value+', your message has been sent.</h2>';
+			} else {
+				_("status").innerHTML = ajax.responseText;
+				_("mybtn").disabled = false;
+			}
+		}
+	}
+	ajax.send( formdata );
+}
