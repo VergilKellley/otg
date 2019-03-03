@@ -6,7 +6,7 @@ if (isset ($_POST['n']) && isset ($_POST['e']) && isset($_POST['m']) ) {
 
 	// nl2br = new line 2 breaks, to preserve line breaks user might enter in message field
 	$m = nl2br($_POST['m']);
-	$to = "cmartin@otgsports.com";
+	$to = "vergilkelley@vergildkelley.com";
 	$from = $e;
 	$subject = 'Message From otgsports.com';
 	$message = '<b>Name:</b> '.$n.' <br><b>Email:</b> '.$e.' <p>'.$m.'</p>';
