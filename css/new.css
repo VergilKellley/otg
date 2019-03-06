@@ -767,7 +767,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100vw;
-	height: 1290px;
+	height: 1390px;
 	background-attachment: fixed;
 }
 
@@ -775,7 +775,7 @@ body {
 	position: relative;
 	top: -2px;
 	background-color: rgba(255, 255, 255, .6);
-	height:1292px;
+	height:1392px;
 }
 
 .contact-form-container {
