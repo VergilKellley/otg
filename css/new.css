@@ -9,7 +9,7 @@ header {
 	border-bottom: 4px green solid;
 	background: rgba(255, 255, 255, .8);
 	top: 0;
-	height: 20vh;
+	height: 17vh;
 	z-index: 3;
 }
 body {
@@ -18,7 +18,7 @@ body {
 
 #top-nav {
 	
-	margin-top: 2rem;
+	margin-top: 1.7rem;
 }
 
 #top-nav ul {
@@ -53,22 +53,23 @@ body {
 }
 
 .logo img{
-	margin-top: 1rem;
+	margin-top: .6rem;
 	margin-left: 5rem;
 }
 
 .phone p {
-	margin-top: 1.5rem;
-	margin-right: 10.5rem;
+	margin-top: 2.4rem;
+	margin-right: 12.5rem;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.3em;
+	line-height: 5px;
 	color: green;
 	font-family: arial, sans-serif;
 }
 
 .phone a i {
 	color: green;
-	padding-right: 15px;
+	padding-right: 10px;
 	font-size: 1.5rem;
 }
 
@@ -77,7 +78,7 @@ body {
 }
 
 .count-down-container{
-	margin-top: 20vh; /*8rem;*/
+	margin-top: 17vh; /*8rem;*/
 	text-align: center;
 	background: green;
 	height: 10vh;
@@ -146,7 +147,13 @@ body {
 .page-name {
 	margin-top: 1.5rem;
 	text-align: right;
-	margin-right: 22rem;
+	margin-left: 38rem;
+	padding: .4rem;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 5px 10px 8px #000;
+	width: 155px;
+	text-transform: uppercase;
 }
 
 .mission-container {
@@ -665,6 +672,29 @@ body {
 	cursor: pointer;
 }
 
+/***********************IN THE NEWS***************************/
+
+.otg-top-container-news-page {
+	position: absolute;
+	background-image: url('../img/footballfield.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 1090px;
+	background-attachment: fixed;
+}
+
+.otg-background-color-news-page {
+	position: relative;
+	top: -2px;
+	background-color: rgba(255, 255, 255, .6);
+	height:1092px;
+}
+
+.news-container {
+	margin-top: 12rem;
+}
+
 /******************MEDIA**********************/
 .media-text-img-video-container {
 	margin-top: 10rem;
@@ -759,7 +789,7 @@ body {
 
 .form-bg-container h4 {
 	color: #fff;
-	padding-bottom: 10px;
+	
 }
 
 #mybtn {
@@ -774,8 +804,9 @@ body {
 
 .company-info {
 	text-align: center;
-	padding-bottom: 5px;
-	color: #fff;
+	/*padding-bottom: 0 50px 10px 50px;*/
+	color: green;
+	background-color: rgba(255, 255, 255);
 }
 
 .company-info ul li {
@@ -783,11 +814,13 @@ body {
 }
 
 .company-info ul a li i {
-	color: #fff;
+	color: green;
+	padding-bottom: 10px;
 }
  
 .company-info ul a {
-	color: #fff;
+	color: green;
+	padding-bottom: 10px;
 }
 
 .company-info ul a:hover {
