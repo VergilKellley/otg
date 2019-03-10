@@ -18,7 +18,15 @@
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-------------------jquery cdn-------------------------------->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>-->
+
+	<!-- jQuery CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!--<script
+  	src="https://code.jquery.com/jquery-3.3.1.min.js"
+  	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  	crossorigin="anonymous"></script>-->
 
 	<!-- scroll reveal link-->
 	<script src="https://unpkg.com/scrollreveal"></script>
@@ -29,6 +37,13 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="Vergil Kelley" content="">
+
+	<script>
+    	// Landing Page Fade-in function 3 seconds
+    	$(document).ready(function() {
+        $('body').hide().fadeIn(1000);
+      });
+  </script>
 
 </head>
 
@@ -42,10 +57,10 @@
 					<ul>
 						<li><a class="current" href="landingpage.html">Home</a></li>
 						<li><a href="services.html">Services</a></li>
-						<li><a href="about.html">About</a></li>
 						<li><a href="clients.html">Clients</a></li>
-						<li><a href="news.html">News</a></li>
 						<li><a href="media.html">Media</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="news.html">News</a></li>
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
@@ -78,12 +93,11 @@
 		</div>
 			<div class="row">
 				<div class="col-sm-10 mx-auto otg-background-color-landingpage"><!--otg-background-color-->
-				<div class="otg-sports-mngt-text">
-					<h1 class="otg-h1">OTG</h1>
-					<span class="otg-h1-text">Sports Management</span>
-					<h4 class="page-name">NFL Agents</h4>
+					<div class="otg-sports-mngt-text">
+						<h1 class="otg-h1 show-right-otg">OTG</h1>
+						<h4 class="otg-h1-text show-right-sports-mngt">Sports Management</h4>
+						<h4 class="page-name show-right-nfl-agents">NFL Agents</h4>
 					</div>	
-				
 				</div>
 			</div>
 	</section>
@@ -92,7 +106,7 @@
 		<div class="row">
 			<div class="col-sm-10 col-md-3 nfl-facts-container mx-auto">
 				<h5 class="red-text">NFL Facts</h5>
-				<p>The National Football League is a professional American football league consisting of 32 teams, divided equally between the National Football Conference and the American Football Conference. <a href="https://en.wikipedia.org/wiki/National_Football_League">Wikipedia</a></p> 
+				<p>The National Football League is a professional American football league consisting of 32 teams, divided equally between the National Football Conference and the American Football Conference. <a href="https://en.wikipedia.org/wiki/National_Football_League" target="_blank">Wikipedia</a></p> 
 			</div>
 			<div class="col-sm-10 col-md-3 landingpage-slider-container">
 				<div class="landingpage-slider-img-container mx-auto">
@@ -111,7 +125,7 @@
 				</ul>
 			</div>
 			<div class="row">
-				<div class="col-sm-8 mx-auto mission-text-container "><!--otg-sports-container-2-->
+				<div class="col-sm-8 mx-auto mission-text-container show-up-mission-statement"><!--otg-sports-container-2-->
 					<h3><span class="green-text">Mission Statement</span></h3>
 				<p>Our every move is a calculated step to provide our clients many unique opportunities from our diversified experience in the world of sports, business and entertainment.  Our dedication and commitment is to ensure our clients’ success both on and off the field of competition.  At OTG Sports Management, our promise is to devote our full energies to enhance and secure clients’ careers and futures- thus, “Scoring for you!”</p>
 				</div>
@@ -138,34 +152,34 @@
 	</section>
 	<section class="container p-0 services-container-2">
 		<div class="row">
-			<div class="col-sm-10 col-md-3 ml-auto services">
+			<div class="col-sm-10 col-md-3 ml-auto services show-up-services-1">
 				<img src="img/contract-neg.png">
 				<h4>Contract Negotiation</h4>
 				<p><a class="red-text" href="services.html">Learn more...</a></p>
 			</div>
-			<div class="col-sm-10 col-md-3 mx-auto services">
+			<div class="col-sm-10 col-md-3 mx-auto services show-up-services-2">
 				<img src="img/marketing.png">
 				<h4>Marketing & Endorsements</h4>
 				<a class="red-text" href="services.html"> Learn More...</a>
 			</div>
-			<div class="col-sm-10 col-md-3 mr-auto services">
+			<div class="col-sm-10 col-md-3 mr-auto services show-up-services-3">
 				<img src="img/pre-draft-prep.png">
 				<h4>Pre-Draft-Preperation</h4>
 				<a class="red-text" href="services.html"> Learn more...</a>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-10 col-md-3 services ml-auto">
+			<div class="col-sm-10 col-md-3 services ml-auto show-up-services-4">
 				<img src="img/community.png">
 				<h4>Community Relations</h4>
 				<a class="red-text" href="services.html"> Learn more...</a>
 			</div> 
-			<div class="col-sm-10 col-md-3 services mx-auto">
+			<div class="col-sm-10 col-md-3 services mx-auto  show-up-services-5">
 				<img src="img/counseling.png">
 				<h4>Post-Athlete Career Counseling</h4>
 				<a class="red-text" href="services.html"> Learn more...</a>
 			</div> 
-			<div class="col-sm-10 col-md-3 services mr-auto">
+			<div class="col-sm-10 col-md-3 services mr-auto show-up-services-6">
 				<img src="img/assistance.png">
 				<h4>Off-Season Client Assistance</h4>
 				<a class="red-text" href="services.html"> Learn more...</a>
@@ -193,21 +207,21 @@
 
 	<section class="container-fluid p-0 mx-auto testimonial-images">
 		<div class="row">
-			<div class="col-sm-10 col-md-3 ml-auto img-text-border-right">
+			<div class="col-sm-10 col-md-3 ml-auto img-text-border-right show-right-testimonials-1">
 				<img src="img/img1.png">
 				<h5>Terrell McClain</h5>
 				<p>This organization views their clients as family. OTG Sports goes above the call of duty in many areas, and they are men of their word. I feel so grateful that my son is with a caring agency that has his back. This firm looks out for their clients and have their best interest at heart. If you want an agency that will answer all your questions, no matter what time of day it is, someone that is easy to communicate with, someone who will represent their clients’ best interest, then OTG Sports Management is for you.</p>
 				<p>Lynn McClain</p>
 				<p>Mother of Terrell McClain – Atlanta Falcons DT</p>
 			</div>
-			<div class="col-sm-10 col-md-3 img-text-border-right">
+			<div class="col-sm-10 col-md-3 img-text-border-right show-right-testimonials-2">
 				<img src="img/img2.png">
 				<h5>Alex McGough</h5>
 				<p>Chris and his team at OTG Sports were an invaluable source of information throughout the draft process. From day 1, they walked us through the process and informed us of everything we needed to know. The entire staff did a phenomenal job promoting our son Alex. With Alex coming out of a small market school, OTG did a great job getting his name in front of the people that needed to see it.  Chris was always available to answer any questions we had, which made what could have been a very stressful time much more comfortable. We can’t thank Chris and OTG enough for all they did!</p>
 
 				<p>Francis and Raylee McGough </p>
 			</div>
-			<div class="col-sm-10 col-md-3 mr-auto img-text"> <!--img-text-div-->
+			<div class="col-sm-10 col-md-3 mr-auto img-text show-right-testimonials-3"> <!--img-text-div-->
 				<img src="img/img3-2.png">
 				<h5>Wilkerson</h5>
 				<p>The path to the NFL is not an easy path and neither was choosing the agent/agency to represent my son and our family. We were fortunate to meet and speak with numerous agents. So when it came time to choose, we were able to compare each agency/agent. My son and I had no reservations about choosing Chris and the OTG family to represent him. What stood out the most with Chris was the fact that he is a family man and family is very important to him. Chris and the OTG family have been nothing short of an extended family to us. My son and my family are truly grateful to have chosen the OTG family to represent us! </p>
@@ -229,7 +243,7 @@
 	</div>
 	<div class="container-fluid p-0 images-container">			
 		<div class="row">
-			<div class="col-sm-8 mx-auto img-text images">
+			<div class="col-sm-8 mx-auto img-text images show-up-testimonials-4">
 				<img src="img/img3.png">
 				<h5>Trey Johnson</h5>
 				<p>Mom and Dad, I’m gonna play in the NFL! Every parent of an athlete hears those words sooner or later but when it happens your kind of lost. High school was a breeze, the college recruiting process added some strain but really wasn't that complicated. However, nothing could really prepare you for the NFL process. You need a trusted partner to help guide you through the process. You have questions about combines, 40 times, what to say to a team if they call, how do contracts work, who’s really interested, how do you get on the radar when you are from a small school? Though you have questions, the answers start by selecting the right agent/representative. This is the most important step and will determine the future of your athlete. The agent is the person representing your athlete behind closed doors to executives and coaches. What will he say in your absence? Does he have my kid's best interest? What kind of industry reputation does he have? This decision in my personal opinion is not one you hastily enter into but you must be prayerful about it. This is where the game changed for us and we found On The Go (OTG) Sports Management.</p>
@@ -243,7 +257,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-8 mx-auto  small-img images">
+			<div class="col-sm-8 mx-auto  small-img images show-up-testimonials-5">
 				<img src="img/greenbay.PNG">
 				<h5>M.D. Jennings </h5>
 				<p>When it came time to choose a firm to represent me, I wanted to find a company that could provide me with everything I needed to help my professional career. I was looking for a company where I would not be just another player on the client list. After talking with Chris for the first time I felt like OTG was the way to go. The guys at OTG understand and respect the game and they always do what they feel is best for the athlete.</p>
@@ -251,7 +265,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-8 mx-auto  small-img images">
+			<div class="col-sm-8 mx-auto  small-img images show-up-testimonials-6">
 				<img src="img/bengals.PNG">
 				<h5>Brandon Joiner </h5>
 				<p>It is every college football player’s dream to be good enough to make it to the NFL. The reality is all of them need help to get there. NFL careers are not based on talent alone. “Show Me The Money” was not just a movie. It was a literal portrayal of the life, relationship, trials and tribulations of an athlete with an agent. Imagine what it would be like without one. The use of an agent will allow the athlete time to practice, study and perform at his best.There is no athlete who knows this more than my son, Brandon Joiner.</p>
@@ -288,10 +302,10 @@
 					<ul>
 						<li><a class="current-footer-links" href="landingpage.html">Home</a></li>
 						<li><a href="services.html">Services</a></li>
-						<li><a href="about.html">About</a></li>
 						<li><a href="clients.html">Clients</a></li>
-						<li><a href="news.html">News</a></li>
 						<li><a href="media.html">Media</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="news.html">News</a></li>
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</div>
@@ -318,6 +332,10 @@
 		</div>
 	</div>
 	</footer>
+
+
+	
+        
 
 	<script src="js/main.js"></script>
 	
