@@ -109,7 +109,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100vw;
-	height: 6417px;
+	height: 6717px;
 	background-attachment: fixed;
 }
 
@@ -117,7 +117,7 @@ body {
 	position: relative;
 	top: 0;
 	background-color: rgba(255, 255, 255, .6);
-	height:6419px;
+	height:6719px;
 }
 
 .otg-sports-mngt-text {
@@ -306,8 +306,8 @@ body {
 .services-container-2 {
 	position: relative;
 	/*background-color: #fff;*/
-	top: 18rem;
-	margin-bottom: 4rem;
+	top: 9rem;
+	/*margin-bottom: 4rem;*/
 	padding: 0;
 }
 
@@ -722,7 +722,7 @@ body {
 }
 
 .services-img-text-container {
-	margin-top: 20rem;
+	margin-top: 10rem;
 }
 
 .services-page-text-container {
