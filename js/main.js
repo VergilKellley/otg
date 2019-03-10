@@ -97,6 +97,165 @@ $(document).ready(function(){
 	//$("#picture").click(clickaway);
 });
 
+/****************************SMOOTH SCROLL ANIMATIONS ALL PAGES***********************/
+		
+		 // scroll reveal slide
+		window.sr = ScrollReveal();
+
+		sr.reveal('.show-right-otg', {
+			duration: 1200,
+			origin: 'right',
+			delay: 100,
+			distance: '400px',
+			viewFactor: 0.2
+		});
+
+		sr.reveal('.show-right-sports-mngt', {
+			duration: 1400,
+			origin: 'right',
+			delay: 400,
+			distance:'300px',
+			viewFactor: 0.3
+		});
+
+		sr.reveal('.show-right-nfl-agents', {
+			duration: 1600,
+			origin: 'right',
+			distance: '200px',
+			delay: 700
+		});
+
+		sr.reveal('.show-up-mission-statement', {
+			duration: 1500, 
+			origin: 'bottom',
+			distance: '150px',
+			delay: 200
+		});
+
+		sr.reveal('.show-up-services-1', {
+			duration: 1500, 
+			origin: 'bottom',
+			distance: '350px',
+			delay: 200
+		});
+
+		sr.reveal('.show-up-services-2', {
+			duration: 1500, 
+			origin: 'bottom',
+			distance: '300px',
+			delay: 550
+		});
+
+		sr.reveal('.show-up-services-3', {
+			duration: 1500, 
+			origin: 'bottom',
+			distance: '250px',
+			delay: 800
+		});
+
+		sr.reveal('.show-up-services-4', {
+			duration: 1500, 
+			origin: 'bottom',
+			distance: '350px',
+			delay: 200
+		});
+
+		sr.reveal('.show-up-services-5', {
+			duration: 1500, 
+			origin: 'bottom',
+			distance: '300px',
+			delay: 550
+		});
+
+		sr.reveal('.show-up-services-6', {
+			duration: 1500, 
+			origin: 'bottom',
+			distance: '250px',
+			delay: 800
+		});
+
+		sr.reveal('.show-right-testimonials-1', {
+			duration: 2000,
+			origin: 'right',
+			distance: '600px',
+			delay: 200
+		});
+
+		sr.reveal('.show-right-testimonials-2', {
+			duration: 1500,
+			origin: 'right',
+			distance: '500px',
+			delay: 550
+		});
+
+		sr.reveal('.show-right-testimonials-3', {
+			duration: 1000,
+			origin: 'right',
+			distance: '400px',
+			delay: 1150
+		});
+
+		sr.reveal('.show-up-testimonials-4', {
+			duration: 1500, 
+			origin: 'bottom',
+			distance: '500px',
+			delay: 200
+		});
+
+		sr.reveal('.show-up-testimonials-5', {
+			duration: 1500, 
+			origin: 'bottom',
+			distance: '300px',
+			delay: 200
+		});
+
+		sr.reveal('.show-up-testimonials-6', {
+			duration: 1500, 
+			origin: 'bottom',
+			distance: '500px',
+			delay: 200
+		});
+
+		sr.reveal('.show-left-client-img-1', {
+			duration: 2000,
+			origin: 'left',
+			distance:'600px',
+			viewFactor: 0.2
+		});
+
+		sr.reveal('.show-left-client-img-2', {
+			duration: 1500,
+			origin: 'left',
+			distance:'400px',
+			viewFactor: 0.2
+		});
+
+		sr.reveal('.show-left-client-img-3', {
+			duration: 1000,
+			origin: 'left',
+			distance:'200px',
+			viewFactor: 0.2
+		});
+
+		/*sr.reveal('.show-down', {
+			duration: 3000, 
+			origin: 'top',
+			distance:'300px'
+		});
+		sr.reveal('.none', {
+			duration: 3000, 
+			origin: 'right',
+			distance:'300px'
+		});*/
+
+		/*sr.reveal('.info1-btn', {
+			duration: 2000,
+			delay: 2000, 
+			origin: 'bottom'
+		});
+		*/
+		
+
 
 
 /******************** client workout slider on clients page***************************/
