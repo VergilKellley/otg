@@ -102,6 +102,8 @@ $(document).ready(function(){
 		 // scroll reveal slide
 		window.sr = ScrollReveal();
 
+		// OTG SPORTS MANAGEMENT HEADER TEXT
+
 		sr.reveal('.show-right-otg', {
 			duration: 1200,
 			origin: 'right',
@@ -109,6 +111,8 @@ $(document).ready(function(){
 			distance: '400px',
 			viewFactor: 0.2
 		});
+
+		// HOME PAGE
 
 		sr.reveal('.show-right-sports-mngt', {
 			duration: 1400,
@@ -216,6 +220,8 @@ $(document).ready(function(){
 			delay: 200
 		});
 
+		// CLIENTS PAGE
+
 		sr.reveal('.show-left-client-img-1', {
 			duration: 2000,
 			origin: 'left',
@@ -235,6 +241,40 @@ $(document).ready(function(){
 			origin: 'left',
 			distance:'200px',
 			viewFactor: 0.2
+		});
+
+		// ABOUT PAGE
+
+		sr.reveal('.show-right-staff-1', {
+			duration: 2000,
+			origin: 'right',
+			distance: '600px',
+			delay: 200
+		});
+
+		sr.reveal('.show-right-staff-2', {
+			duration: 1500,
+			origin: 'right',
+			distance: '500px',
+			delay: 550
+		});
+
+		//  NEWS PAGE
+
+		sr.reveal('.show-up-rss-feed', {
+			duration: 1000,
+			origin: 'bottom',
+			distance: '300px',
+			delay: 1200
+		});
+
+		// CONTACT PAGE
+
+		sr.reveal('.show-up-contact-form', {
+			duration: 1000,
+			origin: 'bottom',
+			distance: '300px',
+			delay: 1200
 		});
 
 		/*sr.reveal('.show-down', {
