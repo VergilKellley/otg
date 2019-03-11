@@ -904,7 +904,7 @@ body {
 	cursor: pointer;
 }
 
-/***********************IN THE NEWS***************************/
+/***********************NEWS***************************/
 
 .otg-top-container-news-page {
 	position: absolute;
@@ -918,13 +918,24 @@ body {
 
 .otg-background-color-news-page {
 	position: relative;
-	top: -2px;
+	top: 0;
 	background-color: rgba(255, 255, 255, .6);
 	height:1092px;
 }
 
 .news-container {
-	margin-top: 12rem;
+	margin-top: 16rem;
+}
+
+.news-text-container {
+	background-color: rgba(255, 255, 255, .8);
+	border-bottom: 4px green solid;
+	padding: 20px;
+}
+
+.rss-img {
+	max-width: 350px;
+	float: left
 }
 
 /******************MEDIA**********************/
