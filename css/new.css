@@ -404,14 +404,15 @@ body {
 	box-shadow: 5px 10px 8px #000;
 }
 
-.img-text-border-right {
+.img-text-border {
 	/*background: #f7f7f7;
 	border-radius: 10px;
 	padding: 10px;
 	border: 1px #000 solid;*/
 	background-color: rgba(255, 255, 255, .8);
-	border-right: 4px green solid;
+	border-bottom: 4px green solid;
 	padding-top: 20px;
+	margin-right:  20px;
 }
 
 .testimonial-images{
@@ -421,7 +422,7 @@ body {
 	
 }
 
-.img-text-border-right img {
+.img-text-border img {
 	max-width: 190px;
 	max-height: auto;
 	border-radius: 100%;
@@ -668,12 +669,13 @@ body {
 .float-staff-img-left {
 	background-color: rgba(255, 255, 255, .8);
 	padding: 20px;
+	border-bottom: 4px green solid;
 }
 
-.float-staff-img-left {
+/*.float-staff-img-left {
 	background-color: rgba(255, 255, 255, .8);
 	padding: 20px;
-}
+}*/
 
 .float-staff-img-left img {
 	/*position: relative;*/
@@ -705,7 +707,8 @@ body {
 }
 
 .staff-images-green-border {
-	border-right: 4px green solid;
+	/*border-right: 4px green solid;*/
+	margin-right: 20px;
 }
 
 /********************SERVICES************************/
@@ -1056,7 +1059,7 @@ body {
 
 .otg-background-color-contact-page {
 	position: relative;
-	top: -2px;
+	top: 0;
 	background-color: rgba(255, 255, 255, .6);
 	height:1392px;
 }
