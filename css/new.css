@@ -89,7 +89,7 @@ body {
 .count-down-container{
 	margin-top: 17vh; /*8rem;*/
 	text-align: center;
-	background: green;
+	background-color: #000;
 	height: 10vh;
 }
 
