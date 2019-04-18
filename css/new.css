@@ -184,12 +184,12 @@ body {
 .mission-text-container {
 	margin-top: 8rem;
 	background-color: rgba(255, 255, 255, .8);
-	border-bottom: 4px green solid;
+	border-bottom: 4px #000 solid;
 }
 
 .landingpage-slider-img-container {
-	border: 4px green solid;
-	background-color: green;
+	border: 4px #000 solid;
+	background-color: #000;
 	border-radius: 50%;
 	max-width: 250px;
 	height: auto;
@@ -202,7 +202,8 @@ body {
 }
 
 .nfl-facts-container {
-	background-color: rgba(3, 114, 18, .9);
+	/*background-color: rgba(3, 114, 18, .9);*/
+	background: #000;
 	color: #fff;
 	height: 200px;
 	margin-top: 2rem;
@@ -224,7 +225,8 @@ body {
 }
 
 .links-container {
-	background-color: rgba(3, 114, 18, .9);
+	/*background-color: rgba(3, 114, 18, .9);*/
+	background-color: #000;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
@@ -265,7 +267,7 @@ body {
 	margin-top: 4rem;
 	text-align: center;
 	color: #fff;
-	background-color: rgb(3, 114, 18);
+	background-color: #000;
 	height: 7rem;
 	width: 100%;
 }
@@ -290,7 +292,7 @@ body {
 	text-align: center;
 	width: 50px;
 	height: 50px;
-	background-color: rgb(3, 114, 18);
+	background-color: #000;
 	top: -37.5px;
 	left: 35%;
 	z-index: 2;
@@ -316,7 +318,7 @@ body {
 	margin-top: 15rem;
 	padding: 0;
 	color: #fff;
-	background-color: rgba(3, 114, 18, .9);
+	background-color: #000;
 }
 
 .services a {
@@ -353,7 +355,7 @@ body {
 	margin-top: 6rem;
 	text-align: center;
 	color: #000;
-	background-color: rgb(3, 114, 18);
+	background-color: #000;
 	height: 7rem;
 	width: 100%;
 }
