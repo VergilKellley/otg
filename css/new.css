@@ -109,7 +109,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100vw;
-	height: 6717px;
+	height: 6417px;
 	background-attachment: fixed;
 }
 
@@ -117,7 +117,7 @@ body {
 	position: relative;
 	top: 0;
 	background-color: rgba(255, 255, 255, .6);
-	height:6719px;
+	height:6419px;
 }
 
 .otg-sports-mngt-text {
@@ -411,8 +411,8 @@ body {
 	border-radius: 10px;
 	padding: 10px;
 	border: 1px #000 solid;*/
-	background-color: rgba(255, 255, 255, .8);
-	border-bottom: 4px green solid;
+	background-color:rgba(255, 255, 255, .8);
+	border-bottom: 4px #000 solid;
 	padding-top: 20px;
 	margin-right:  20px;
 }
@@ -431,7 +431,7 @@ body {
 	float:left;
 	margin-right: 2em;
 	margin-bottom: 0.5em;
-	border:3px green solid;
+	border:3px #000 solid;
 	shape-outside: circle();
 }
 
@@ -445,7 +445,7 @@ body {
 }
 
 .images {
-	border-bottom: 4px green solid;
+	border-bottom: 4px #000 solid;
 	background-color: rgba(255, 255, 255, .8);
 	padding-top: 20px;
 }
@@ -457,7 +457,7 @@ body {
 	float:left;
 	margin-right: 2em;
 	margin-bottom: 0.5em;
-	border:3px green solid;
+	border:3px #000 solid;
 	shape-outside: circle();
 }
 
@@ -482,7 +482,7 @@ body {
 	float:left;
 	margin-right: 2em;
 	margin-bottom: 0.5em;
-	border:3px green solid;
+	border:3px #000 solid;
 	shape-outside: circle();
 }
 
@@ -748,10 +748,10 @@ body {
 
 
 .trust-text-container {
-	margin-top: 4rem;
+	margin-top: 16rem;
 	text-align: center;
 	color: #fff;
-	background-color: rgb(3, 114, 18);
+	background-color: #000;/*rgb(3, 114, 18);*/
 	height: 7rem;
 	width: 100%;
 	text-transform: uppercase;
@@ -778,7 +778,7 @@ body {
 	padding-top: 3%;
 	color: #fff;
 	text-transform: uppercase;
-	background-color: rgba(3, 114, 18);
+	background-color: #000;/*rgba(3, 114, 18);*/
 	height: 7rem;
 	margin-bottom: 0;
 }
@@ -791,7 +791,7 @@ body {
 	text-transform: uppercase;
 	background-color:#fff;
 	height: 7rem;
-	border-bottom: 4px green solid;
+	border-bottom: 4px #000 solid;
 }
 
 .clients-our-text-container h2 {
@@ -805,7 +805,7 @@ body {
 .clients-img-border {
 	max-width: 250px;
 	height: auto;
-	border: 4px green solid;
+	border: 4px #000 solid;
 	border-radius: 50%;
 	background-color: green;
 }
@@ -954,7 +954,7 @@ body {
 }
 
 .media1-png {
-	margin-top: 0;
+	margin-top: -5rem;
 	background-color: rgba(255, 255, 255, .8);
 	border-bottom: 4px green solid;
 	padding: 20px;
@@ -1003,7 +1003,7 @@ body {
 
 .media-png-h3 {
 	text-align: center;
-	margin-top: 1rem;
+	margin-top: -6rem;
 	background-color: rgba(255, 255, 255, .8);
 	padding-top: 20px;
 }
