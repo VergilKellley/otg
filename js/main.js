@@ -40,7 +40,7 @@
 			/***********************Draft Day Countdown***********************/
 				function countDowndd() {
 					var today = new Date();
-					var eventDate = new Date("April 25, 2019 00:00");
+					var eventDate = new Date("April 25, 2020 00:00");
 
 					var currentTime = today.getTime();
 					var eventTime = eventDate.getTime();
