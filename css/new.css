@@ -342,7 +342,7 @@ body {
 	top: -3.2rem;
 	height: 7rem;
 	text-align: center;
-	border-bottom: 4px green solid;
+	border-bottom: 4px #000 solid;
 }
 
 .services-text-container h2 {
@@ -511,7 +511,7 @@ body {
 	text-align: center;
 	color: #fff;
 	padding-top: 1%;
-	background-color: rgb(3, 114, 18);
+	background-color: #000; /*rgb(3, 114, 18);*/
 	height: 7rem;
 	width: 100%;
 	text-transform: uppercase;
@@ -723,7 +723,7 @@ body {
 
 .committed-text-container {
 	background-color: rgba(255, 255, 255, .8);
-	border-bottom: 4px green solid;
+	border-bottom: 4px #000 solid;
 }
 
 .services-img-text-container {
@@ -732,7 +732,7 @@ body {
 
 .services-page-text-container {
 	background-color: rgba(255, 255, 255, .8);
-	border-bottom: 4px green solid;
+	border-bottom: 4px #000 solid;
 	padding: 20px;
 	margin-top: 2rem;
 }
