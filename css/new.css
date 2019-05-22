@@ -497,7 +497,7 @@ body {
 .top-about-text-container {
 	background-color: rgba(255, 255, 255, .8);
 	padding: 10px;
-	border-bottom:4px green solid;
+	border-bottom:4px #000 solid;
 }
 .about-container {
 	position: relative;
@@ -539,7 +539,7 @@ body {
 }
 
 .about-text-container p {
-	border-bottom: 4px green solid;
+	border-bottom: 4px #000 solid;
 	background-color: rgba(255, 255, 255, .7);
 	padding: 10px;
 }
@@ -580,7 +580,7 @@ body {
 }
 
 .about-img-text-video {
-	border-bottom: 4px green solid;
+	border-bottom: 4px #000 solid;
 }
 
 .about-img-text-video h4 {
@@ -671,7 +671,7 @@ body {
 .float-staff-img-left {
 	background-color: rgba(255, 255, 255, .8);
 	padding: 20px;
-	border-bottom: 4px green solid;
+	border-bottom: 4px #000 solid;
 }
 
 /*.float-staff-img-left {
@@ -688,7 +688,7 @@ body {
 	float:left;
 	margin-right: 2em;
 	margin-bottom: 0.5em;
-	border:3px green solid;
+	border:3px #000 solid;
 	shape-outside: circle();
 	
 }
@@ -703,7 +703,7 @@ body {
 	float:right;
 	margin-left: 2em;
 	margin-bottom: 0.5em;
-	border:3px green solid;
+	border:3px #000 solid;
 	shape-outside: circle();
 	
 }
@@ -807,7 +807,7 @@ body {
 	height: auto;
 	border: 4px #000 solid;
 	border-radius: 50%;
-	background-color: green;
+	background-color: #000;
 }
 
 .clients-img-border img {
@@ -833,7 +833,7 @@ body {
 }
 
 .our-clients-text-container {
-	border-left: 4px green solid;
+	border-left: 4px #000 solid;
 	/*margin-left: 80px;*/
 	margin-left: 4rem;
 }
@@ -860,7 +860,7 @@ body {
 }
 
 .our-clients-text-container2 {
-	border-right: 4px green solid;
+	border-right: 4px #000 solid;
 	height: 19rem;
 }
 
@@ -934,7 +934,7 @@ body {
 
 .news-text-container {
 	background-color: rgba(255, 255, 255, .8);
-	border-bottom: 4px green solid;
+	border-bottom: 4px #000 solid;
 	padding: 20px;
 }
 
@@ -956,7 +956,7 @@ body {
 .media1-png {
 	margin-top: -5rem;
 	background-color: rgba(255, 255, 255, .8);
-	border-bottom: 4px green solid;
+	border-bottom: 4px #000 solid;
 	padding: 20px;
 }
 
@@ -964,7 +964,7 @@ body {
 	width: 40%;
 	height: auto;
 	border-radius: 50%;
-	border: 4px green solid;
+	border: 4px #000 solid;
 	float:left;
 	margin-right: 2em;
 	margin-bottom: 0.5em;
@@ -998,7 +998,7 @@ body {
 	padding: .2em;
 	text-align: center;
 	height: 100%;
-	border-bottom: 4px green solid;
+	border-bottom: 4px #000 solid;
 }
 
 .media-png-h3 {
@@ -1023,7 +1023,7 @@ body {
 
 .path-draft-container {
 	background-color: rgba(255, 255, 255, .8);
-	border-bottom: 4px green solid;
+	border-bottom: 4px #000 solid;
 }
 
 .testimonial-video-link-container div h5{
@@ -1071,7 +1071,7 @@ body {
 }
 
 .form-bg-container {
-	background-color: rgba(3, 114, 18, 0.9);
+	background-color: rgba(0, 0, 0, 0.7);/*(3, 114, 18, 0.9);*/
 	padding: 2rem;
 }
 
