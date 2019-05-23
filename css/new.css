@@ -888,11 +888,14 @@ body {
 	top: -40px;
 	color: #000;
 	background-color: rgba(255, 255, 255, 0.6);
+	width: 350px;
 }
 
 .client-name-plate:hover {
 	background-color: rgba(255, 255, 255, 0.9);
 	cursor: pointer;
+	text-align: center;
+
 }
 
 .client-name-plate-more-space {
