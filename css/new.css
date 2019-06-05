@@ -912,6 +912,27 @@ body {
 	cursor: pointer;
 }
 
+#players {
+	background: #000;
+	padding-top: 10vh;
+}
+
+.players-list {
+	color: #fff;
+}
+
+.clients-list-title {
+	background: #000;
+	padding-top: 10vh;
+}
+
+.clients-list-title p {
+	color: #fff;
+	text-align: center;
+	font-size: 5vh;
+
+}
+
 /***********************NEWS***************************/
 
 .otg-top-container-news-page {
